@@ -1,0 +1,246 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <defs>
+    <!-- Recursive triangle pattern for fractal feel -->
+    <pattern id="fractalFill" x="0" y="0" width="12" height="12" patternUnits="userSpaceOnUse">
+      <polygon points="6,0 12,12 0,12" fill="none" stroke="#c4a35a" stroke-width="0.4" opacity="0.5"/>
+      <polygon points="6,4 9,10 3,10" fill="none" stroke="#c4a35a" stroke-width="0.3" opacity="0.35"/>
+    </pattern>
+
+    <!-- Radial glow -->
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#c4a35a" stop-opacity="0.12"/>
+      <stop offset="70%" stop-color="#c4a35a" stop-opacity="0.03"/>
+      <stop offset="100%" stop-color="#c4a35a" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Subtle radial glow behind cross -->
+  <circle cx="200" cy="200" r="180" fill="url(#glow)"/>
+
+  <!-- Outermost fractal ring -->
+  <g opacity="0.15">
+    <g id="ring3">
+      <line x1="200" y1="20" x2="200" y2="28" stroke="#2c3e6b" stroke-width="0.5"/>
+      <line x1="200" y1="20" x2="196" y2="27" stroke="#2c3e6b" stroke-width="0.3"/>
+      <line x1="200" y1="20" x2="204" y2="27" stroke="#2c3e6b" stroke-width="0.3"/>
+    </g>
+    <!-- 72 radiating fractal branches -->
+    <use href="#ring3" transform="rotate(5 200 200)"/>
+    <use href="#ring3" transform="rotate(10 200 200)"/>
+    <use href="#ring3" transform="rotate(15 200 200)"/>
+    <use href="#ring3" transform="rotate(20 200 200)"/>
+    <use href="#ring3" transform="rotate(25 200 200)"/>
+    <use href="#ring3" transform="rotate(30 200 200)"/>
+    <use href="#ring3" transform="rotate(35 200 200)"/>
+    <use href="#ring3" transform="rotate(40 200 200)"/>
+    <use href="#ring3" transform="rotate(45 200 200)"/>
+    <use href="#ring3" transform="rotate(50 200 200)"/>
+    <use href="#ring3" transform="rotate(55 200 200)"/>
+    <use href="#ring3" transform="rotate(60 200 200)"/>
+    <use href="#ring3" transform="rotate(65 200 200)"/>
+    <use href="#ring3" transform="rotate(70 200 200)"/>
+    <use href="#ring3" transform="rotate(75 200 200)"/>
+    <use href="#ring3" transform="rotate(80 200 200)"/>
+    <use href="#ring3" transform="rotate(85 200 200)"/>
+    <use href="#ring3" transform="rotate(90 200 200)"/>
+    <use href="#ring3" transform="rotate(95 200 200)"/>
+    <use href="#ring3" transform="rotate(100 200 200)"/>
+    <use href="#ring3" transform="rotate(105 200 200)"/>
+    <use href="#ring3" transform="rotate(110 200 200)"/>
+    <use href="#ring3" transform="rotate(115 200 200)"/>
+    <use href="#ring3" transform="rotate(120 200 200)"/>
+    <use href="#ring3" transform="rotate(125 200 200)"/>
+    <use href="#ring3" transform="rotate(130 200 200)"/>
+    <use href="#ring3" transform="rotate(135 200 200)"/>
+    <use href="#ring3" transform="rotate(140 200 200)"/>
+    <use href="#ring3" transform="rotate(145 200 200)"/>
+    <use href="#ring3" transform="rotate(150 200 200)"/>
+    <use href="#ring3" transform="rotate(155 200 200)"/>
+    <use href="#ring3" transform="rotate(160 200 200)"/>
+    <use href="#ring3" transform="rotate(165 200 200)"/>
+    <use href="#ring3" transform="rotate(170 200 200)"/>
+    <use href="#ring3" transform="rotate(175 200 200)"/>
+    <use href="#ring3" transform="rotate(180 200 200)"/>
+    <use href="#ring3" transform="rotate(185 200 200)"/>
+    <use href="#ring3" transform="rotate(190 200 200)"/>
+    <use href="#ring3" transform="rotate(195 200 200)"/>
+    <use href="#ring3" transform="rotate(200 200 200)"/>
+    <use href="#ring3" transform="rotate(205 200 200)"/>
+    <use href="#ring3" transform="rotate(210 200 200)"/>
+    <use href="#ring3" transform="rotate(215 200 200)"/>
+    <use href="#ring3" transform="rotate(220 200 200)"/>
+    <use href="#ring3" transform="rotate(225 200 200)"/>
+    <use href="#ring3" transform="rotate(230 200 200)"/>
+    <use href="#ring3" transform="rotate(235 200 200)"/>
+    <use href="#ring3" transform="rotate(240 200 200)"/>
+    <use href="#ring3" transform="rotate(245 200 200)"/>
+    <use href="#ring3" transform="rotate(250 200 200)"/>
+    <use href="#ring3" transform="rotate(255 200 200)"/>
+    <use href="#ring3" transform="rotate(260 200 200)"/>
+    <use href="#ring3" transform="rotate(265 200 200)"/>
+    <use href="#ring3" transform="rotate(270 200 200)"/>
+    <use href="#ring3" transform="rotate(275 200 200)"/>
+    <use href="#ring3" transform="rotate(280 200 200)"/>
+    <use href="#ring3" transform="rotate(285 200 200)"/>
+    <use href="#ring3" transform="rotate(290 200 200)"/>
+    <use href="#ring3" transform="rotate(295 200 200)"/>
+    <use href="#ring3" transform="rotate(300 200 200)"/>
+    <use href="#ring3" transform="rotate(305 200 200)"/>
+    <use href="#ring3" transform="rotate(310 200 200)"/>
+    <use href="#ring3" transform="rotate(315 200 200)"/>
+    <use href="#ring3" transform="rotate(320 200 200)"/>
+    <use href="#ring3" transform="rotate(325 200 200)"/>
+    <use href="#ring3" transform="rotate(330 200 200)"/>
+    <use href="#ring3" transform="rotate(335 200 200)"/>
+    <use href="#ring3" transform="rotate(340 200 200)"/>
+    <use href="#ring3" transform="rotate(345 200 200)"/>
+    <use href="#ring3" transform="rotate(350 200 200)"/>
+    <use href="#ring3" transform="rotate(355 200 200)"/>
+  </g>
+
+  <!-- Middle fractal ring -->
+  <g opacity="0.2">
+    <circle cx="200" cy="200" r="120" fill="none" stroke="#c4a35a" stroke-width="0.3"/>
+    <g id="ring2">
+      <line x1="200" y1="80" x2="200" y2="92" stroke="#c4a35a" stroke-width="0.5"/>
+      <line x1="200" y1="80" x2="197" y2="90" stroke="#c4a35a" stroke-width="0.3"/>
+      <line x1="200" y1="80" x2="203" y2="90" stroke="#c4a35a" stroke-width="0.3"/>
+    </g>
+    <use href="#ring2" transform="rotate(15 200 200)"/>
+    <use href="#ring2" transform="rotate(30 200 200)"/>
+    <use href="#ring2" transform="rotate(45 200 200)"/>
+    <use href="#ring2" transform="rotate(60 200 200)"/>
+    <use href="#ring2" transform="rotate(75 200 200)"/>
+    <use href="#ring2" transform="rotate(90 200 200)"/>
+    <use href="#ring2" transform="rotate(105 200 200)"/>
+    <use href="#ring2" transform="rotate(120 200 200)"/>
+    <use href="#ring2" transform="rotate(135 200 200)"/>
+    <use href="#ring2" transform="rotate(150 200 200)"/>
+    <use href="#ring2" transform="rotate(165 200 200)"/>
+    <use href="#ring2" transform="rotate(180 200 200)"/>
+    <use href="#ring2" transform="rotate(195 200 200)"/>
+    <use href="#ring2" transform="rotate(210 200 200)"/>
+    <use href="#ring2" transform="rotate(225 200 200)"/>
+    <use href="#ring2" transform="rotate(240 200 200)"/>
+    <use href="#ring2" transform="rotate(255 200 200)"/>
+    <use href="#ring2" transform="rotate(270 200 200)"/>
+    <use href="#ring2" transform="rotate(285 200 200)"/>
+    <use href="#ring2" transform="rotate(300 200 200)"/>
+    <use href="#ring2" transform="rotate(315 200 200)"/>
+    <use href="#ring2" transform="rotate(330 200 200)"/>
+    <use href="#ring2" transform="rotate(345 200 200)"/>
+  </g>
+
+  <!-- Inner fractal ring -->
+  <g opacity="0.25">
+    <circle cx="200" cy="200" r="75" fill="none" stroke="#c4a35a" stroke-width="0.4"/>
+    <g id="ring1">
+      <line x1="200" y1="125" x2="200" y2="135" stroke="#c4a35a" stroke-width="0.6"/>
+      <circle cx="200" cy="124" r="1.5" fill="#c4a35a" opacity="0.4"/>
+    </g>
+    <use href="#ring1" transform="rotate(30 200 200)"/>
+    <use href="#ring1" transform="rotate(60 200 200)"/>
+    <use href="#ring1" transform="rotate(90 200 200)"/>
+    <use href="#ring1" transform="rotate(120 200 200)"/>
+    <use href="#ring1" transform="rotate(150 200 200)"/>
+    <use href="#ring1" transform="rotate(180 200 200)"/>
+    <use href="#ring1" transform="rotate(210 200 200)"/>
+    <use href="#ring1" transform="rotate(240 200 200)"/>
+    <use href="#ring1" transform="rotate(270 200 200)"/>
+    <use href="#ring1" transform="rotate(300 200 200)"/>
+    <use href="#ring1" transform="rotate(330 200 200)"/>
+  </g>
+
+  <!-- The Cross — Eastern Orthodox proportions -->
+  <!-- Vertical beam -->
+  <rect x="192" y="100" width="16" height="200" rx="1" fill="#2c3e6b"/>
+  <!-- Horizontal beam (slightly above center) -->
+  <rect x="140" y="168" width="120" height="14" rx="1" fill="#2c3e6b"/>
+
+  <!-- Cross inner detail — gold inlay lines -->
+  <rect x="196" y="104" width="8" height="192" rx="0.5" fill="none" stroke="#c4a35a" stroke-width="0.6" opacity="0.6"/>
+  <rect x="144" y="172" width="112" height="6" rx="0.5" fill="none" stroke="#c4a35a" stroke-width="0.6" opacity="0.6"/>
+
+  <!-- Fractal branching from cross endpoints -->
+  <!-- Top -->
+  <g opacity="0.35">
+    <line x1="200" y1="100" x2="200" y2="85" stroke="#c4a35a" stroke-width="0.8"/>
+    <line x1="200" y1="85" x2="193" y2="72" stroke="#c4a35a" stroke-width="0.5"/>
+    <line x1="200" y1="85" x2="207" y2="72" stroke="#c4a35a" stroke-width="0.5"/>
+    <line x1="193" y1="72" x2="188" y2="62" stroke="#c4a35a" stroke-width="0.3"/>
+    <line x1="193" y1="72" x2="196" y2="62" stroke="#c4a35a" stroke-width="0.3"/>
+    <line x1="207" y1="72" x2="204" y2="62" stroke="#c4a35a" stroke-width="0.3"/>
+    <line x1="207" y1="72" x2="212" y2="62" stroke="#c4a35a" stroke-width="0.3"/>
+    <!-- Third level -->
+    <line x1="188" y1="62" x2="184" y2="54" stroke="#c4a35a" stroke-width="0.2"/>
+    <line x1="188" y1="62" x2="190" y2="54" stroke="#c4a35a" stroke-width="0.2"/>
+    <line x1="212" y1="62" x2="210" y2="54" stroke="#c4a35a" stroke-width="0.2"/>
+    <line x1="212" y1="62" x2="216" y2="54" stroke="#c4a35a" stroke-width="0.2"/>
+  </g>
+
+  <!-- Bottom -->
+  <g opacity="0.35">
+    <line x1="200" y1="300" x2="200" y2="315" stroke="#c4a35a" stroke-width="0.8"/>
+    <line x1="200" y1="315" x2="193" y2="328" stroke="#c4a35a" stroke-width="0.5"/>
+    <line x1="200" y1="315" x2="207" y2="328" stroke="#c4a35a" stroke-width="0.5"/>
+    <line x1="193" y1="328" x2="188" y2="338" stroke="#c4a35a" stroke-width="0.3"/>
+    <line x1="193" y1="328" x2="196" y2="338" stroke="#c4a35a" stroke-width="0.3"/>
+    <line x1="207" y1="328" x2="204" y2="338" stroke="#c4a35a" stroke-width="0.3"/>
+    <line x1="207" y1="328" x2="212" y2="338" stroke="#c4a35a" stroke-width="0.3"/>
+    <line x1="188" y1="338" x2="184" y2="346" stroke="#c4a35a" stroke-width="0.2"/>
+    <line x1="188" y1="338" x2="190" y2="346" stroke="#c4a35a" stroke-width="0.2"/>
+    <line x1="212" y1="338" x2="210" y2="346" stroke="#c4a35a" stroke-width="0.2"/>
+    <line x1="212" y1="338" x2="216" y2="346" stroke="#c4a35a" stroke-width="0.2"/>
+  </g>
+
+  <!-- Left -->
+  <g opacity="0.35">
+    <line x1="140" y1="175" x2="125" y2="175" stroke="#c4a35a" stroke-width="0.8"/>
+    <line x1="125" y1="175" x2="112" y2="168" stroke="#c4a35a" stroke-width="0.5"/>
+    <line x1="125" y1="175" x2="112" y2="182" stroke="#c4a35a" stroke-width="0.5"/>
+    <line x1="112" y1="168" x2="102" y2="163" stroke="#c4a35a" stroke-width="0.3"/>
+    <line x1="112" y1="168" x2="102" y2="171" stroke="#c4a35a" stroke-width="0.3"/>
+    <line x1="112" y1="182" x2="102" y2="179" stroke="#c4a35a" stroke-width="0.3"/>
+    <line x1="112" y1="182" x2="102" y2="187" stroke="#c4a35a" stroke-width="0.3"/>
+    <line x1="102" y1="163" x2="94" y2="159" stroke="#c4a35a" stroke-width="0.2"/>
+    <line x1="102" y1="163" x2="94" y2="165" stroke="#c4a35a" stroke-width="0.2"/>
+    <line x1="102" y1="187" x2="94" y2="185" stroke="#c4a35a" stroke-width="0.2"/>
+    <line x1="102" y1="187" x2="94" y2="191" stroke="#c4a35a" stroke-width="0.2"/>
+  </g>
+
+  <!-- Right -->
+  <g opacity="0.35">
+    <line x1="260" y1="175" x2="275" y2="175" stroke="#c4a35a" stroke-width="0.8"/>
+    <line x1="275" y1="175" x2="288" y2="168" stroke="#c4a35a" stroke-width="0.5"/>
+    <line x1="275" y1="175" x2="288" y2="182" stroke="#c4a35a" stroke-width="0.5"/>
+    <line x1="288" y1="168" x2="298" y2="163" stroke="#c4a35a" stroke-width="0.3"/>
+    <line x1="288" y1="168" x2="298" y2="171" stroke="#c4a35a" stroke-width="0.3"/>
+    <line x1="288" y1="182" x2="298" y2="179" stroke="#c4a35a" stroke-width="0.3"/>
+    <line x1="288" y1="182" x2="298" y2="187" stroke="#c4a35a" stroke-width="0.3"/>
+    <line x1="298" y1="163" x2="306" y2="159" stroke="#c4a35a" stroke-width="0.2"/>
+    <line x1="298" y1="163" x2="306" y2="165" stroke="#c4a35a" stroke-width="0.2"/>
+    <line x1="298" y1="187" x2="306" y2="185" stroke="#c4a35a" stroke-width="0.2"/>
+    <line x1="298" y1="187" x2="306" y2="191" stroke="#c4a35a" stroke-width="0.2"/>
+  </g>
+
+  <!-- Four small diamonds at the cross quadrants (Byzantine motif) -->
+  <g opacity="0.3" fill="#c4a35a">
+    <polygon points="170,145 175,140 180,145 175,150"/>
+    <polygon points="220,145 225,140 230,145 225,150"/>
+    <polygon points="170,200 175,195 180,200 175,205"/>
+    <polygon points="220,200 225,195 230,200 225,205"/>
+  </g>
+
+  <!-- Tiny recursive diamonds inside each quadrant diamond -->
+  <g opacity="0.2" fill="none" stroke="#c4a35a" stroke-width="0.3">
+    <polygon points="173,145 175,143 177,145 175,147"/>
+    <polygon points="223,145 225,143 227,145 225,147"/>
+    <polygon points="173,200 175,198 177,200 175,202"/>
+    <polygon points="223,200 225,198 227,200 225,202"/>
+  </g>
+
+  <!-- Center jewel -->
+  <circle cx="200" cy="175" r="4" fill="#c4a35a" opacity="0.5"/>
+  <circle cx="200" cy="175" r="2.5" fill="#2c3e6b" opacity="0.7"/>
+  <circle cx="200" cy="175" r="1" fill="#c4a35a" opacity="0.6"/>
+</svg>

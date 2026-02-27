@@ -1,0 +1,420 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <defs>
+    <radialGradient id="warmGlow" cx="50%" cy="48%" r="45%">
+      <stop offset="0%" stop-color="#c4a35a" stop-opacity="0.1"/>
+      <stop offset="60%" stop-color="#c4a35a" stop-opacity="0.03"/>
+      <stop offset="100%" stop-color="#c4a35a" stop-opacity="0"/>
+    </radialGradient>
+    <!-- Parchment fill for the circular frame -->
+    <radialGradient id="parchment" cx="50%" cy="48%" r="50%">
+      <stop offset="0%" stop-color="#f0ead4"/>
+      <stop offset="75%" stop-color="#e8e0c8"/>
+      <stop offset="100%" stop-color="#ddd4b8"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Circular parchment background -->
+  <circle cx="200" cy="200" r="185" fill="url(#parchment)"/>
+  <!-- Fine gold border ring -->
+  <circle cx="200" cy="200" r="185" fill="none" stroke="#c4a35a" stroke-width="1.2" opacity="0.4"/>
+  <circle cx="200" cy="200" r="181" fill="none" stroke="#c4a35a" stroke-width="0.3" opacity="0.25"/>
+
+  <!-- Warm glow on top of parchment -->
+  <circle cx="200" cy="192" r="185" fill="url(#warmGlow)"/>
+
+  <!-- Recursive geometric halo — nested octagons -->
+  <g fill="none" stroke="#c4a35a" opacity="0.1">
+    <polygon points="200,25 325,90 360,200 325,310 200,375 75,310 40,200 75,90" stroke-width="0.4"/>
+    <polygon points="200,50 305,105 335,200 305,295 200,350 95,295 65,200 95,105" stroke-width="0.4"/>
+    <polygon points="200,75 280,118 305,200 280,282 200,325 120,282 95,200 120,118" stroke-width="0.5"/>
+  </g>
+
+  <!-- Dot grid along outer octagon vertices — like stars -->
+  <g fill="#c4a35a" opacity="0.15">
+    <circle cx="200" cy="25" r="2"/>
+    <circle cx="325" cy="90" r="2"/>
+    <circle cx="360" cy="200" r="2"/>
+    <circle cx="325" cy="310" r="2"/>
+    <circle cx="200" cy="375" r="2"/>
+    <circle cx="75" cy="310" r="2"/>
+    <circle cx="40" cy="200" r="2"/>
+    <circle cx="75" cy="90" r="2"/>
+  </g>
+
+  <!-- Vine / tendril fractals — organic curves from cross tips -->
+  <!-- Top tendrils -->
+  <g opacity="0.22" fill="none" stroke="#c4a35a" stroke-linecap="round">
+    <path d="M200,98 Q200,80 188,65 Q180,55 175,42" stroke-width="0.9"/>
+    <path d="M188,65 Q182,58 172,55" stroke-width="0.5"/>
+    <path d="M172,55 Q166,50 160,42" stroke-width="0.3"/>
+    <path d="M172,55 Q170,48 172,40" stroke-width="0.3"/>
+    <path d="M200,98 Q200,80 212,65 Q220,55 225,42" stroke-width="0.9"/>
+    <path d="M212,65 Q218,58 228,55" stroke-width="0.5"/>
+    <path d="M228,55 Q234,50 240,42" stroke-width="0.3"/>
+    <path d="M228,55 Q230,48 228,40" stroke-width="0.3"/>
+    <!-- Secondary sprouts -->
+    <path d="M194,82 Q186,78 178,80 Q170,82 164,78" stroke-width="0.35"/>
+    <path d="M206,82 Q214,78 222,80 Q230,82 236,78" stroke-width="0.35"/>
+    <!-- Leaf dots -->
+    <circle cx="160" cy="42" r="1.2" fill="#c4a35a"/>
+    <circle cx="172" cy="40" r="1" fill="#c4a35a"/>
+    <circle cx="240" cy="42" r="1.2" fill="#c4a35a"/>
+    <circle cx="228" cy="40" r="1" fill="#c4a35a"/>
+    <circle cx="164" cy="78" r="0.8" fill="#c4a35a"/>
+    <circle cx="236" cy="78" r="0.8" fill="#c4a35a"/>
+  </g>
+
+  <!-- Bottom tendrils -->
+  <g opacity="0.22" fill="none" stroke="#c4a35a" stroke-linecap="round">
+    <path d="M200,302 Q200,320 188,335 Q180,345 175,358" stroke-width="0.9"/>
+    <path d="M188,335 Q182,342 172,345" stroke-width="0.5"/>
+    <path d="M172,345 Q166,350 160,358" stroke-width="0.3"/>
+    <path d="M172,345 Q170,352 172,360" stroke-width="0.3"/>
+    <path d="M200,302 Q200,320 212,335 Q220,345 225,358" stroke-width="0.9"/>
+    <path d="M212,335 Q218,342 228,345" stroke-width="0.5"/>
+    <path d="M228,345 Q234,350 240,358" stroke-width="0.3"/>
+    <path d="M228,345 Q230,352 228,360" stroke-width="0.3"/>
+    <path d="M194,318 Q186,322 178,320 Q170,318 164,322" stroke-width="0.35"/>
+    <path d="M206,318 Q214,322 222,320 Q230,318 236,322" stroke-width="0.35"/>
+    <circle cx="160" cy="358" r="1.2" fill="#c4a35a"/>
+    <circle cx="240" cy="358" r="1.2" fill="#c4a35a"/>
+    <circle cx="164" cy="322" r="0.8" fill="#c4a35a"/>
+    <circle cx="236" cy="322" r="0.8" fill="#c4a35a"/>
+  </g>
+
+  <!-- Left tendrils -->
+  <g opacity="0.22" fill="none" stroke="#c4a35a" stroke-linecap="round">
+    <path d="M138,192 Q120,192 105,180 Q95,172 82,167" stroke-width="0.9"/>
+    <path d="M105,180 Q98,174 95,164" stroke-width="0.5"/>
+    <path d="M95,164 Q90,158 82,152" stroke-width="0.3"/>
+    <path d="M95,164 Q88,162 80,164" stroke-width="0.3"/>
+    <path d="M138,192 Q120,192 105,204 Q95,212 82,217" stroke-width="0.9"/>
+    <path d="M105,204 Q98,210 95,220" stroke-width="0.5"/>
+    <path d="M95,220 Q90,226 82,232" stroke-width="0.3"/>
+    <path d="M95,220 Q88,222 80,220" stroke-width="0.3"/>
+    <circle cx="82" cy="152" r="1.2" fill="#c4a35a"/>
+    <circle cx="80" cy="164" r="1" fill="#c4a35a"/>
+    <circle cx="82" cy="232" r="1.2" fill="#c4a35a"/>
+    <circle cx="80" cy="220" r="1" fill="#c4a35a"/>
+  </g>
+
+  <!-- Right tendrils -->
+  <g opacity="0.22" fill="none" stroke="#c4a35a" stroke-linecap="round">
+    <path d="M262,192 Q280,192 295,180 Q305,172 318,167" stroke-width="0.9"/>
+    <path d="M295,180 Q302,174 305,164" stroke-width="0.5"/>
+    <path d="M305,164 Q310,158 318,152" stroke-width="0.3"/>
+    <path d="M305,164 Q312,162 320,164" stroke-width="0.3"/>
+    <path d="M262,192 Q280,192 295,204 Q305,212 318,217" stroke-width="0.9"/>
+    <path d="M295,204 Q302,210 305,220" stroke-width="0.5"/>
+    <path d="M305,220 Q310,226 318,232" stroke-width="0.3"/>
+    <path d="M305,220 Q312,222 320,220" stroke-width="0.3"/>
+    <circle cx="318" cy="152" r="1.2" fill="#c4a35a"/>
+    <circle cx="320" cy="164" r="1" fill="#c4a35a"/>
+    <circle cx="318" cy="232" r="1.2" fill="#c4a35a"/>
+    <circle cx="320" cy="220" r="1" fill="#c4a35a"/>
+  </g>
+
+  <!-- THE CROSS — slightly tapered, warm -->
+  <!-- Vertical beam -->
+  <polygon points="193,100 207,100 209,300 191,300" fill="#2c3e6b"/>
+  <!-- Horizontal beam -->
+  <polygon points="140,185 260,185 262,203 138,203" fill="#2c3e6b"/>
+
+  <!-- Inner cross detail — double gold lines -->
+  <line x1="198" y1="105" x2="198" y2="295" stroke="#c4a35a" stroke-width="0.6" opacity="0.35"/>
+  <line x1="202" y1="105" x2="202" y2="295" stroke="#c4a35a" stroke-width="0.6" opacity="0.35"/>
+  <line x1="145" y1="192" x2="255" y2="192" stroke="#c4a35a" stroke-width="0.6" opacity="0.35"/>
+  <line x1="145" y1="196" x2="255" y2="196" stroke="#c4a35a" stroke-width="0.6" opacity="0.35"/>
+
+  <!-- Edge shimmer -->
+  <polygon points="193,100 207,100 209,300 191,300" fill="none" stroke="#c4a35a" stroke-width="0.4" opacity="0.2"/>
+  <polygon points="140,185 260,185 262,203 138,203" fill="none" stroke="#c4a35a" stroke-width="0.4" opacity="0.2"/>
+
+  <!-- Center rosette -->
+  <circle cx="200" cy="194" r="8" fill="none" stroke="#c4a35a" stroke-width="0.5" opacity="0.3"/>
+  <circle cx="200" cy="194" r="5" fill="#c4a35a" opacity="0.2"/>
+  <circle cx="200" cy="194" r="2.5" fill="#2c3e6b" opacity="0.5"/>
+  <circle cx="200" cy="194" r="1" fill="#c4a35a" opacity="0.45"/>
+
+  <!-- Tiny accent dots at the four corners of the inner intersection -->
+  <circle cx="191" cy="185" r="1" fill="#c4a35a" opacity="0.25"/>
+  <circle cx="209" cy="185" r="1" fill="#c4a35a" opacity="0.25"/>
+  <circle cx="191" cy="203" r="1" fill="#c4a35a" opacity="0.25"/>
+  <circle cx="209" cy="203" r="1" fill="#c4a35a" opacity="0.25"/>
+
+  <!-- Inward spines — tangent off circle, curving toward letters -->
+
+  <!-- Upper-left arc → Alpha (blue spines) -->
+  <g opacity="0.2" fill="none" stroke="#2c3e6b" stroke-linecap="round">
+    <!-- Main spine: starts tangent (leftward) at ~45° on circle, curves in -->
+    <path d="M70,82 C58,90 85,115 110,130 Q130,142 155,152" stroke-width="0.9"/>
+    <!-- Sub-spines branching off the main -->
+    <path d="M90,108 C82,102 78,110 72,105" stroke-width="0.4"/>
+    <path d="M110,130 C102,126 98,132 92,128" stroke-width="0.35"/>
+    <path d="M130,142 C125,136 120,140 115,135" stroke-width="0.3"/>
+
+    <!-- Second spine: starts tangent (downward) slightly further along arc -->
+    <path d="M48,112 C48,125 75,132 100,140 Q125,148 150,154" stroke-width="0.6"/>
+    <!-- Sub-spines -->
+    <path d="M68,128 C62,134 58,128 52,132" stroke-width="0.3"/>
+    <path d="M100,140 C95,146 90,140 85,145" stroke-width="0.25"/>
+
+    <!-- Third spine: short, from further up the arc -->
+    <path d="M85,58 C78,66 92,88 115,112 Q132,128 152,148" stroke-width="0.45"/>
+    <path d="M102,95 C95,90 92,98 86,94" stroke-width="0.25"/>
+  </g>
+
+  <!-- Upper-right arc → Omega (blue spines, mirrored) -->
+  <g opacity="0.2" fill="none" stroke="#2c3e6b" stroke-linecap="round">
+    <path d="M330,82 C342,90 315,115 290,130 Q270,142 245,152" stroke-width="0.9"/>
+    <path d="M310,108 C318,102 322,110 328,105" stroke-width="0.4"/>
+    <path d="M290,130 C298,126 302,132 308,128" stroke-width="0.35"/>
+    <path d="M270,142 C275,136 280,140 285,135" stroke-width="0.3"/>
+
+    <path d="M352,112 C352,125 325,132 300,140 Q275,148 250,154" stroke-width="0.6"/>
+    <path d="M332,128 C338,134 342,128 348,132" stroke-width="0.3"/>
+    <path d="M300,140 C305,146 310,140 315,145" stroke-width="0.25"/>
+
+    <path d="M315,58 C322,66 308,88 285,112 Q268,128 248,148" stroke-width="0.45"/>
+    <path d="M298,95 C305,90 308,98 314,94" stroke-width="0.25"/>
+  </g>
+
+  <!-- Lower-left arc → Aleph (gold spines) -->
+  <g opacity="0.2" fill="none" stroke="#c4a35a" stroke-linecap="round">
+    <path d="M70,318 C58,310 85,285 110,270 Q130,258 155,248" stroke-width="0.9"/>
+    <path d="M90,292 C82,298 78,290 72,295" stroke-width="0.4"/>
+    <path d="M110,270 C102,274 98,268 92,272" stroke-width="0.35"/>
+    <path d="M130,258 C125,264 120,260 115,265" stroke-width="0.3"/>
+
+    <path d="M48,288 C48,275 75,268 100,260 Q125,252 150,246" stroke-width="0.6"/>
+    <path d="M68,272 C62,266 58,272 52,268" stroke-width="0.3"/>
+    <path d="M100,260 C95,254 90,260 85,255" stroke-width="0.25"/>
+
+    <path d="M85,342 C78,334 92,312 115,288 Q132,272 152,252" stroke-width="0.45"/>
+    <path d="M102,305 C95,310 92,302 86,306" stroke-width="0.25"/>
+  </g>
+
+  <!-- Lower-right arc → Tav (gold spines, mirrored) -->
+  <g opacity="0.2" fill="none" stroke="#c4a35a" stroke-linecap="round">
+    <path d="M330,318 C342,310 315,285 290,270 Q270,258 245,248" stroke-width="0.9"/>
+    <path d="M310,292 C318,298 322,290 328,295" stroke-width="0.4"/>
+    <path d="M290,270 C298,274 302,268 308,272" stroke-width="0.35"/>
+    <path d="M270,258 C275,264 280,260 285,265" stroke-width="0.3"/>
+
+    <path d="M352,288 C352,275 325,268 300,260 Q275,252 250,246" stroke-width="0.6"/>
+    <path d="M332,272 C338,266 342,272 348,268" stroke-width="0.3"/>
+    <path d="M300,260 C305,254 310,260 315,255" stroke-width="0.25"/>
+
+    <path d="M315,342 C322,334 308,312 285,288 Q268,272 248,252" stroke-width="0.45"/>
+    <path d="M298,305 C305,310 308,302 314,306" stroke-width="0.25"/>
+  </g>
+
+  <!-- Uniform spines — filling cardinal directions and intermediate gaps -->
+
+  <!-- Top arc spines (blue, curving around vertical beam) -->
+  <g opacity="0.18" fill="none" stroke="#2c3e6b" stroke-linecap="round">
+    <!-- Spine at ~350° (just left of top) -->
+    <path d="M178,18 C170,25 178,52 185,72 Q190,85 195,98" stroke-width="0.7"/>
+    <path d="M180,42 C174,38 170,44 165,40" stroke-width="0.3"/>
+    <path d="M185,65 C179,62 176,68 170,65" stroke-width="0.25"/>
+    <!-- Spine at ~355° -->
+    <path d="M188,16 C184,28 190,55 195,75 Q198,88 200,98" stroke-width="0.5"/>
+    <path d="M190,48 C185,44 182,50 178,47" stroke-width="0.25"/>
+    <!-- Spine at ~5° -->
+    <path d="M212,16 C216,28 210,55 205,75 Q202,88 200,98" stroke-width="0.5"/>
+    <path d="M210,48 C215,44 218,50 222,47" stroke-width="0.25"/>
+    <!-- Spine at ~10° (just right of top) -->
+    <path d="M222,18 C230,25 222,52 215,72 Q210,85 205,98" stroke-width="0.7"/>
+    <path d="M220,42 C226,38 230,44 235,40" stroke-width="0.3"/>
+    <path d="M215,65 C221,62 224,68 230,65" stroke-width="0.25"/>
+  </g>
+
+  <!-- Upper-right intermediate spines (~20° and ~25°, filling gap) -->
+  <g opacity="0.17" fill="none" stroke="#2c3e6b" stroke-linecap="round">
+    <path d="M255,26 C258,38 242,65 228,88 Q218,105 210,120" stroke-width="0.6"/>
+    <path d="M244,55 C250,50 254,56 260,52" stroke-width="0.25"/>
+    <path d="M268,30 C274,42 255,72 240,95 Q228,112 218,128" stroke-width="0.5"/>
+    <path d="M252,68 C258,64 262,70 268,66" stroke-width="0.22"/>
+  </g>
+
+  <!-- Upper-left intermediate spines (~335° and ~340°) -->
+  <g opacity="0.17" fill="none" stroke="#2c3e6b" stroke-linecap="round">
+    <path d="M145,26 C142,38 158,65 172,88 Q182,105 190,120" stroke-width="0.6"/>
+    <path d="M156,55 C150,50 146,56 140,52" stroke-width="0.25"/>
+    <path d="M132,30 C126,42 145,72 160,95 Q172,112 182,128" stroke-width="0.5"/>
+    <path d="M148,68 C142,64 138,70 132,66" stroke-width="0.22"/>
+  </g>
+
+  <!-- Right arc spines (~70°, 80°, 90°, 100°, 110° — blend zone) -->
+  <g opacity="0.16" fill="none" stroke="#2c3e6b" stroke-linecap="round">
+    <!-- ~70° -->
+    <path d="M374,128 C362,135 335,140 310,155 Q290,168 270,180" stroke-width="0.6"/>
+    <path d="M345,140 C348,146 342,150 346,155" stroke-width="0.25"/>
+    <!-- ~80° -->
+    <path d="M382,158 C370,160 342,162 315,172 Q295,180 270,188" stroke-width="0.55"/>
+    <path d="M350,165 C352,172 346,174 348,180" stroke-width="0.22"/>
+  </g>
+  <g opacity="0.16" fill="none" stroke="#8b7250" stroke-linecap="round">
+    <!-- ~90° (blend color) -->
+    <path d="M385,200 C372,200 345,198 320,196 Q295,194 270,194" stroke-width="0.5"/>
+    <path d="M355,198 C356,192 350,190 352,184" stroke-width="0.22"/>
+  </g>
+  <g opacity="0.16" fill="none" stroke="#c4a35a" stroke-linecap="round">
+    <!-- ~100° -->
+    <path d="M382,242 C370,240 342,238 315,228 Q295,220 270,212" stroke-width="0.55"/>
+    <path d="M350,235 C352,228 346,226 348,220" stroke-width="0.22"/>
+    <!-- ~110° -->
+    <path d="M374,272 C362,265 335,260 310,245 Q290,232 270,220" stroke-width="0.6"/>
+    <path d="M345,260 C348,254 342,250 346,245" stroke-width="0.25"/>
+  </g>
+
+  <!-- Lower-right intermediate spines (~120° and ~125°) -->
+  <g opacity="0.17" fill="none" stroke="#c4a35a" stroke-linecap="round">
+    <path d="M268,370 C274,358 255,328 240,305 Q228,288 218,272" stroke-width="0.5"/>
+    <path d="M252,332 C258,336 262,330 268,334" stroke-width="0.22"/>
+    <path d="M255,374 C258,362 242,335 228,312 Q218,295 210,280" stroke-width="0.6"/>
+    <path d="M244,345 C250,350 254,344 260,348" stroke-width="0.25"/>
+  </g>
+
+  <!-- Bottom arc spines (gold, curving around vertical beam) -->
+  <g opacity="0.18" fill="none" stroke="#c4a35a" stroke-linecap="round">
+    <!-- ~170° (just right of bottom) -->
+    <path d="M222,382 C230,375 222,348 215,328 Q210,315 205,302" stroke-width="0.7"/>
+    <path d="M220,358 C226,362 230,356 235,360" stroke-width="0.3"/>
+    <path d="M215,335 C221,338 224,332 230,335" stroke-width="0.25"/>
+    <!-- ~175° -->
+    <path d="M212,384 C216,372 210,345 205,325 Q202,312 200,302" stroke-width="0.5"/>
+    <path d="M210,352 C215,356 218,350 222,353" stroke-width="0.25"/>
+    <!-- ~185° -->
+    <path d="M188,384 C184,372 190,345 195,325 Q198,312 200,302" stroke-width="0.5"/>
+    <path d="M190,352 C185,356 182,350 178,353" stroke-width="0.25"/>
+    <!-- ~190° (just left of bottom) -->
+    <path d="M178,382 C170,375 178,348 185,328 Q190,315 195,302" stroke-width="0.7"/>
+    <path d="M180,358 C174,362 170,356 165,360" stroke-width="0.3"/>
+    <path d="M185,335 C179,338 176,332 170,335" stroke-width="0.25"/>
+  </g>
+
+  <!-- Lower-left intermediate spines (~215° and ~220°) -->
+  <g opacity="0.17" fill="none" stroke="#c4a35a" stroke-linecap="round">
+    <path d="M132,370 C126,358 145,328 160,305 Q172,288 182,272" stroke-width="0.5"/>
+    <path d="M148,332 C142,336 138,330 132,334" stroke-width="0.22"/>
+    <path d="M145,374 C142,362 158,335 172,312 Q182,295 190,280" stroke-width="0.6"/>
+    <path d="M156,345 C150,350 146,344 140,348" stroke-width="0.25"/>
+  </g>
+
+  <!-- Left arc spines (~250°, 260°, 270°, 280°, 290° — blend zone) -->
+  <g opacity="0.16" fill="none" stroke="#c4a35a" stroke-linecap="round">
+    <!-- ~250° -->
+    <path d="M26,272 C38,265 65,260 90,245 Q110,232 130,220" stroke-width="0.6"/>
+    <path d="M55,260 C52,254 58,250 54,245" stroke-width="0.25"/>
+    <!-- ~260° -->
+    <path d="M18,242 C30,240 58,238 85,228 Q105,220 130,212" stroke-width="0.55"/>
+    <path d="M50,235 C48,228 54,226 52,220" stroke-width="0.22"/>
+  </g>
+  <g opacity="0.16" fill="none" stroke="#8b7250" stroke-linecap="round">
+    <!-- ~270° (blend color) -->
+    <path d="M15,200 C28,200 55,198 80,196 Q105,194 130,194" stroke-width="0.5"/>
+    <path d="M45,198 C44,192 50,190 48,184" stroke-width="0.22"/>
+  </g>
+  <g opacity="0.16" fill="none" stroke="#2c3e6b" stroke-linecap="round">
+    <!-- ~280° -->
+    <path d="M18,158 C30,160 58,162 85,172 Q105,180 130,188" stroke-width="0.55"/>
+    <path d="M50,165 C48,172 54,174 52,180" stroke-width="0.22"/>
+    <!-- ~290° -->
+    <path d="M26,128 C38,135 65,140 90,155 Q110,168 130,180" stroke-width="0.6"/>
+    <path d="M55,140 C52,146 58,150 54,155" stroke-width="0.25"/>
+  </g>
+
+  <!-- Upper-left intermediate fill spines (~305° and ~310°) -->
+  <g opacity="0.15" fill="none" stroke="#2c3e6b" stroke-linecap="round">
+    <path d="M42,95 C50,105 68,112 88,125 Q108,138 128,150" stroke-width="0.45"/>
+    <path d="M65,110 C58,114 56,108 50,112" stroke-width="0.2"/>
+    <path d="M55,78 C60,88 78,100 98,118 Q115,132 135,148" stroke-width="0.4"/>
+    <path d="M78,98 C72,102 70,96 64,100" stroke-width="0.2"/>
+  </g>
+
+  <!-- Upper-right intermediate fill spines (~55° and ~60°) -->
+  <g opacity="0.15" fill="none" stroke="#2c3e6b" stroke-linecap="round">
+    <path d="M358,95 C350,105 332,112 312,125 Q292,138 272,150" stroke-width="0.45"/>
+    <path d="M335,110 C342,114 344,108 350,112" stroke-width="0.2"/>
+    <path d="M345,78 C340,88 322,100 302,118 Q285,132 265,148" stroke-width="0.4"/>
+    <path d="M322,98 C328,102 330,96 336,100" stroke-width="0.2"/>
+  </g>
+
+  <!-- Lower-left intermediate fill spines (~235° and ~240°) -->
+  <g opacity="0.15" fill="none" stroke="#c4a35a" stroke-linecap="round">
+    <path d="M42,305 C50,295 68,288 88,275 Q108,262 128,250" stroke-width="0.45"/>
+    <path d="M65,290 C58,286 56,292 50,288" stroke-width="0.2"/>
+    <path d="M55,322 C60,312 78,300 98,282 Q115,268 135,252" stroke-width="0.4"/>
+    <path d="M78,302 C72,298 70,304 64,300" stroke-width="0.2"/>
+  </g>
+
+  <!-- Lower-right intermediate fill spines (~145° and ~150°) -->
+  <g opacity="0.15" fill="none" stroke="#c4a35a" stroke-linecap="round">
+    <path d="M358,305 C350,295 332,288 312,275 Q292,262 272,250" stroke-width="0.45"/>
+    <path d="M335,290 C342,286 344,292 350,288" stroke-width="0.2"/>
+    <path d="M345,322 C340,312 322,300 302,282 Q285,268 265,252" stroke-width="0.4"/>
+    <path d="M322,302 C328,298 330,304 336,300" stroke-width="0.2"/>
+  </g>
+
+  <!-- Connective threads — letters to circumference -->
+  <!-- Alpha threads (top-left, reaching toward upper-left arc) -->
+  <g opacity="0.2" fill="none" stroke="#2c3e6b" stroke-linecap="round">
+    <path d="M156,152 Q140,135 115,118 Q95,105 78,93" stroke-width="0.8"/>
+    <path d="M115,118 Q105,125 90,120" stroke-width="0.45"/>
+    <path d="M90,120 Q82,117 75,110" stroke-width="0.3"/>
+    <path d="M156,152 Q138,148 120,140 Q105,132 88,115" stroke-width="0.5"/>
+    <path d="M120,140 Q112,145 102,142" stroke-width="0.3"/>
+  </g>
+
+  <!-- Omega threads (top-right, reaching toward upper-right arc) -->
+  <g opacity="0.2" fill="none" stroke="#2c3e6b" stroke-linecap="round">
+    <path d="M244,152 Q260,135 285,118 Q305,105 322,93" stroke-width="0.8"/>
+    <path d="M285,118 Q295,125 310,120" stroke-width="0.45"/>
+    <path d="M310,120 Q318,117 325,110" stroke-width="0.3"/>
+    <path d="M244,152 Q262,148 280,140 Q295,132 312,115" stroke-width="0.5"/>
+    <path d="M280,140 Q288,145 298,142" stroke-width="0.3"/>
+  </g>
+
+  <!-- Aleph threads (bottom-left, reaching toward lower-left arc) -->
+  <g opacity="0.2" fill="none" stroke="#c4a35a" stroke-linecap="round">
+    <path d="M156,242 Q140,260 115,278 Q95,292 78,308" stroke-width="0.8"/>
+    <path d="M115,278 Q105,272 90,276" stroke-width="0.45"/>
+    <path d="M90,276 Q82,280 75,288" stroke-width="0.3"/>
+    <path d="M156,242 Q138,248 120,258 Q105,268 88,282" stroke-width="0.5"/>
+    <path d="M120,258 Q112,254 102,256" stroke-width="0.3"/>
+  </g>
+
+  <!-- Tav threads (bottom-right, reaching toward lower-right arc) -->
+  <g opacity="0.2" fill="none" stroke="#c4a35a" stroke-linecap="round">
+    <path d="M244,242 Q260,260 285,278 Q305,292 322,308" stroke-width="0.8"/>
+    <path d="M285,278 Q295,272 310,276" stroke-width="0.45"/>
+    <path d="M310,276 Q318,280 325,288" stroke-width="0.3"/>
+    <path d="M244,242 Q262,248 280,258 Q295,268 312,282" stroke-width="0.5"/>
+    <path d="M280,258 Q288,254 298,256" stroke-width="0.3"/>
+  </g>
+
+  <!-- Alpha-Omega (Greek) in upper quadrants -->
+  <!-- Shadows -->
+  <g font-family="serif" font-weight="bold" fill="#000000" text-anchor="middle" letter-spacing="1" opacity="0.2">
+    <text x="165" y="163" font-size="22">Α</text>
+    <text x="237" y="163" font-size="22">Ω</text>
+  </g>
+  <!-- Letters -->
+  <g font-family="serif" font-weight="bold" fill="#2c3e6b" text-anchor="middle" letter-spacing="1">
+    <text x="164" y="162" font-size="22" opacity="0.75">Α</text>
+    <text x="236" y="162" font-size="22" opacity="0.75">Ω</text>
+  </g>
+
+  <!-- Aleph-Tav (Hebrew) in lower quadrants -->
+  <!-- Shadows -->
+  <g font-family="serif" font-weight="bold" fill="#000000" text-anchor="middle" letter-spacing="1" opacity="0.2">
+    <text x="165" y="242" font-size="24">א</text>
+    <text x="237" y="242" font-size="24">ת</text>
+  </g>
+  <!-- Letters -->
+  <g font-family="serif" font-weight="bold" fill="#c4a35a" text-anchor="middle" letter-spacing="1">
+    <text x="164" y="241" font-size="24" opacity="0.75">א</text>
+    <text x="236" y="241" font-size="24" opacity="0.75">ת</text>
+  </g>
+</svg>
