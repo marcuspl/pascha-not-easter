@@ -38,8 +38,7 @@
   left=6pt, right=6pt, top=4pt, bottom=4pt,
   before skip=10pt, after skip=10pt,
   fontupper=\small,
-  before title=\numberparfalse,
-  before upper=\numberparfalse
+  %
 }
 
 \newtcolorbox{westernbox}{%
@@ -53,8 +52,7 @@
   left=6pt, right=6pt, top=4pt, bottom=4pt,
   before skip=10pt, after skip=10pt,
   fontupper=\small,
-  before title=\numberparfalse,
-  before upper=\numberparfalse
+  %
 }
 
 \newtcolorbox{reviewerfinalbox}[1][]{%
@@ -68,8 +66,7 @@
   left=6pt, right=6pt, top=4pt, bottom=4pt,
   before skip=10pt, after skip=10pt,
   fontupper=\small,
-  before title=\numberparfalse,
-  before upper=\numberparfalse
+  %
 }
 
 \newtcolorbox{gptbox}{%
@@ -83,8 +80,7 @@
   left=6pt, right=6pt, top=4pt, bottom=4pt,
   before skip=10pt, after skip=10pt,
   fontupper=\small,
-  before title=\numberparfalse,
-  before upper=\numberparfalse
+  %
 }
 
 % ── Typography & layout ───────────────────────────────────────
@@ -112,29 +108,29 @@
 \setlength{\headheight}{20pt}
 \pagestyle{fancy}
 \fancyhf{}
-\fancyhead[LE]{\numberparfalse\small\itshape\color{deepblue} Pascha, Not ``Easter''}
-\fancyhead[RO]{\numberparfalse\small\itshape\color{deepblue} \leftmark}
-\fancyfoot[C]{\numberparfalse\small\thepage}
+\fancyhead[LE]{\small\itshape\color{deepblue} Pascha, Not ``Easter''}
+\fancyhead[RO]{\small\itshape\color{deepblue} \leftmark}
+\fancyfoot[C]{\small\thepage}
 \renewcommand{\headrulewidth}{0.3pt}
 \renewcommand{\headrule}{\hbox to\headwidth{\color{gold}\leaders\hrule height \headrulewidth\hfill}}
 
 % ── Chapter / section styling ─────────────────────────────────
 \titleformat{\chapter}[display]
-  {\numberparfalse\normalfont\Large\bfseries\color{deepblue}}
+  {\normalfont\Large\bfseries\color{deepblue}}
   {}
   {0pt}
   {\filcenter\Large}
 \titlespacing*{\chapter}{0pt}{30pt}{18pt}
 
 \titleformat{\section}
-  {\numberparfalse\normalfont\large\bfseries\color{deepblue}}
+  {\normalfont\large\bfseries\color{deepblue}}
   {}
   {0pt}
   {}
 \titlespacing*{\section}{0pt}{18pt}{8pt}
 
 \titleformat{\subsection}
-  {\numberparfalse\normalfont\normalsize\bfseries\color{burgundy}}
+  {\normalfont\normalsize\bfseries\color{burgundy}}
   {}
   {0pt}
   {}
@@ -146,7 +142,7 @@
 % ── Ornamental rule ───────────────────────────────────────────
 \newcommand{\ornrule}{%
   \par\bigskip
-  {\numberparfalse\noindent\hfil{\color{gold}\rule[0.5ex]{1.5in}{0.5pt}%
+  {\noindent\hfil{\color{gold}\rule[0.5ex]{1.5in}{0.5pt}%
   \quad$\diamond$\quad%
   \rule[0.5ex]{1.5in}{0.5pt}}\hfil\par}%
   \bigskip
@@ -155,25 +151,7 @@
 % ── Block quote style ─────────────────────────────────────────
 \usepackage{quoting}
 \quotingsetup{leftmargin=1em,rightmargin=1em,vskip=6pt}
-\AtBeginEnvironment{quoting}{\numberparfalse}
-
-% ── Marginal paragraph numbers (patristic style) ─────────────
 \usepackage{etoolbox}
-\newcounter{parno}
-\newif\ifnumberpar  % false by default
-
-\AddToHook{para/begin}{%
-  \ifnumberpar
-    \stepcounter{parno}%
-    \llap{\scriptsize\color{gold!80!black}\arabic{parno}\enspace}%
-  \fi
-}
-
-% Suppress numbering on \part title pages
-\makeatletter
-\pretocmd{\@part}{\numberparfalse}{}{}
-\pretocmd{\@endpart}{\numberpartrue}{}{}
-\makeatother
 
 % ══════════════════════════════════════════════════════════════
 \begin{document}
@@ -288,7 +266,7 @@ the old ones where they have become obscured.
 % ══════════════════════════════════════════════════════════════
 %                   INTRODUCTION
 % ══════════════════════════════════════════════════════════════
-\numberpartrue
+% (content begins)
 
 \chapter{Pascha, Not ``Easter''}
 \begin{center}
@@ -468,8 +446,7 @@ must be kept clear.
 
 \section{What about rabbits, eggs, and other folk practices?}
 
-A related objection sometimes raised is that Easter customs like eggs
-and rabbits prove pagan origins. This conflates folk custom with
+Even if the etymology fails, those making the pagan-corruption argument often point to customs like eggs and rabbits as proof that the holiday was hijacked.\footnote{Reviewer's note (Gemini 1.5 Pro): While the specific teaching this booklet responds to may not have mentioned rabbits and eggs, I recommended keeping this section here. Anyone researching the ``Ishtar'' claim online will immediately encounter the ``pagan fertility symbols'' argument. Addressing it preemptively strengthens the booklet's defense and provides a beautiful opportunity to highlight the ancient, explicitly Christian symbolism of the Orthodox red egg tradition.} This conflates folk custom with
 liturgical theology. Egg and rabbit symbolism entered Western
 Christianity through medieval European folk practice --- centuries after
 Nicaea --- and has no connection to any conciliar decision or ancient
