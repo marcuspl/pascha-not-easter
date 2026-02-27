@@ -42,27 +42,26 @@ The booklet was independently reviewed by two AI systems — Claude Opus 4.6 (An
 
 ## Rendering strategy
 
-The LaTeX file is currently the most complete version and contains content (the Bishop of Jerusalem section, Appendices 3–8, the personal note, AI closing remarks) that has not been back-synced to the raw manuscript.
+The manuscript and the `.tex` file are currently **fully in sync** content-wise. The manuscript contains all author prose and all reviewer/AI commentary in plain-text format (using ASCII box borders). The `.tex` file renders the same content with LaTeX markup.
 
-**Current approach:** The `.tex` file is the working document. We accepted some drift during initial development.
+**Workflow going forward:** Maintain the raw manuscript (`manuscript.txt`) as the canonical source for **all** content — both author prose and commentary. The `.tex` file is a downstream rendering that adds:
 
-**Intended approach going forward:** Maintain the raw manuscript (`manuscript.txt`) as the canonical source for all author-written prose. The `.tex` file is a downstream rendering that adds:
+- LaTeX formatting and layout (tcolorbox environments for commentary, titlesec styling, etc.)
+- Typographic details (ornamental rules, colors, fonts, page geometry)
 
-- LaTeX formatting and layout
-- Reviewer commentary boxes (reviewerbox, westernbox, gptbox)
-- Typographic details (ornamental rules, colors, fonts)
+When new content is added — whether author prose or commentary — it should be written in `manuscript.txt` first, then formatted into the `.tex`. This keeps the door open for alternative renderings (EPUB, web, plain PDF) from the same manuscript source without having to reverse-engineer content out of LaTeX markup.
 
-When new author content is added, it should be written in `manuscript.txt` first, then formatted into the `.tex`. Commentary additions (reviewer/GPT boxes) go directly into the `.tex` since they are part of the rendering layer.
+The manuscript uses a simple convention for commentary blocks:
 
-This keeps the door open for alternative renderings (EPUB, web, plain PDF) from the same manuscript source without having to reverse-engineer prose out of LaTeX markup.
+```
+  ┌─────────────────────────────────────────────────────────┐
+  │ REVIEWER'S NOTE (Claude Opus 4.6, AI assistant):        │
+  │                                                         │
+  │ Commentary text here...                                 │
+  └─────────────────────────────────────────────────────────┘
+```
 
-**TODO:** Back-sync the `.tex` additions into `manuscript.txt` so the manuscript is fully up to date. The following sections exist only in the `.tex` currently:
-
-- "The Bishop of Jerusalem was not excluded from Nicaea" (Part I)
-- Appendix 3: Summary of Reviewer's Assessment
-- Appendices 4–6: Rabbinic / Orthodox / Evangelical cautions
-- Personal Note chapter (expanded and edited from `me.txt`)
-- Appendices 7–8: AI closing remarks
+These map to `\begin{reviewerbox}`, `\begin{westernbox}`, `\begin{gptbox}`, and `\begin{reviewerfinalbox}` in the `.tex`.
 
 ## Building the PDF
 
@@ -115,5 +114,5 @@ Considerations, suggestions, and open questions logged during development. Each 
 - [x] Created `README.md`
 - [x] Renamed `pascha-not-easter-booklet.txt` → `manuscript.txt` for clarity
 - [x] Initialized git repo, pushed to private GitHub repository
-- [ ] Back-sync `.tex` additions into `manuscript.txt` (Bishop of Jerusalem, Appendices 3–8, personal note)
-- [ ] Decide on manuscript ↔ .tex sync workflow going forward
+- [x] Verified manuscript.txt and .tex are fully in sync (all content including commentary exists in both)
+- [x] Documented manuscript ↔ .tex sync workflow in README
