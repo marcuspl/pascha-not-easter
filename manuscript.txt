@@ -268,8 +268,7 @@ adoption. This is a modern sound-alike theory, not serious scholarship.
 What about rabbits, eggs, and other folk practices?
 
 
-A related objection sometimes raised is that Easter customs like eggs
-and rabbits prove pagan origins. This conflates folk custom with
+Even if the etymology fails, those making the pagan-corruption argument often point to customs like eggs and rabbits as proof that the holiday was hijacked.[^5] This conflates folk custom with
 liturgical theology. Egg and rabbit symbolism entered Western
 Christianity through medieval European folk practice — centuries after
 Nicaea — and has no connection to any conciliar decision or ancient
@@ -857,6 +856,23 @@ brutality; it was Roman power being constrained, reoriented, and slowly
 disciplined by a new moral vision. The empire did not cease to exist,
 but it ceased to be what it had been.
 
+The most devastating historical fact against the claim that "the
+Emperor dictated church doctrine" is what happened immediately after
+Nicaea. Within a few years, the Roman Empire was taken over by
+fiercely Arian emperors — most notably Constantine's own son,
+Constantius II. These emperors used the full, violent weight of the
+Roman state to try and crush the Nicene faith. They exiled orthodox
+bishops (St. Athanasius was exiled five times), installed heretical
+leaders, and punished dissenters.
+
+If the Roman state determined Christian theology, the Church would
+have become permanently Arian in the fourth century. Instead, Nicene
+orthodoxy survived. It survived because the laity, the monks, and the
+faithful bishops refused to yield to imperial pressure. The theology
+of the Church was not a product of Roman coercion; we know this
+because it successfully resisted Roman coercion for the next fifty
+years.
+
 
 
 ⸻
@@ -974,6 +990,13 @@ tension, resistance, and uneven practice does not disprove the
 Christianization of Rome; it confirms its realism. No transformation
 of that scale happens without friction, ambiguity, or failure along
 the way.
+
+The Church is incarnational. Just as Christ did not remain in heaven
+but entered the dirt, politics, and blood of first-century Judea, the
+Church did not remain in a pure, abstract upper room. It entered the
+messy, brutal bureaucracy of the Roman Empire to act as leaven in the
+dough. Leavening is a slow, invisible, and sometimes ugly process —
+but it changes the dough from the inside out.
 
 
   ┌─────────────────────────────────────────────────────────┐
@@ -2763,3 +2786,5 @@ advocating a balanced path between extremes.
 [^3]: Historical accounts note that many bishops at Nicaea bore the physical marks of the Diocletianic persecution. Theodoret of Cyrus (Ecclesiastical History 1.7) specifically mentions Paphnutius of Egypt, who had an eye gouged out and a leg hamstrung, and Paul of Neocaesarea, whose hands were paralyzed by hot iron.
 
 [^4]: This refers to a widely reported event near the end of Aquinas's life (December 6, 1273). After a profound mystical experience during Mass, Aquinas ceased writing, telling his companion Reginald of Piperno: "I can do no more. Such secrets have been revealed to me that all I have written now appears to be of little value" (often translated as "like straw").
+
+[^5]: Reviewer's note (Gemini 1.5 Pro): While the specific teaching this booklet responds to may not have mentioned rabbits and eggs, I recommended keeping this section here. Anyone researching the "Ishtar" claim online will immediately encounter the "pagan fertility symbols" argument. Addressing it preemptively strengthens the booklet's defense and provides a beautiful opportunity to highlight the ancient, explicitly Christian symbolism of the Orthodox red egg tradition.
