@@ -2616,58 +2616,6 @@ Second Reviewer and Analytical Assistant
 
      APPENDIX 9
 
-     Glossary of Terms
-
-═══════════════════════════════════════════════════════════════
-
-
-Pascha — The Greek and Latin name for the Christian feast of the
-resurrection of Christ, derived directly from the Hebrew Pesach
-(Passover). Used by the vast majority of Christian traditions
-worldwide.
-
-Pesach — The Hebrew word for Passover, the biblical feast
-commemorating Israel's deliverance from Egypt (Exodus 12).
-
-Quartodeciman — From the Latin quartadecima ("fourteenth"). Refers to
-Christians who celebrated Pascha on Nisan 14 (the date of Passover)
-regardless of the day of the week. The practice was common in Asia
-Minor in the second and third centuries.
-
-Oikonomia — (Greek: "economy," "dispensation.") In Orthodox theology,
-the pastoral practice of applying flexibility or leniency in the
-application of church rules when strict enforcement would cause
-greater harm than good. Contrasted with akribeia.
-
-Akribeia — (Greek: "exactness," "strictness.") The strict application
-of church canons and rules. In Orthodox usage, akribeia and oikonomia
-are complementary principles, not opposites.
-
-Pikuach nefesh — (Hebrew: "saving a life.") The Jewish legal
-principle that the preservation of human life overrides virtually
-every other commandment. Cited in the booklet as an example of a
-built-in brake against absolutism in Jewish law.
-
-Septuagint — The Greek translation of the Hebrew Scriptures, produced
-in Alexandria beginning in the 3rd century BC. The standard Old
-Testament text of the early church and still used liturgically in
-Orthodox Christianity.
-
-Bat kol — (Hebrew: "daughter of a voice.") In rabbinic literature, a
-heavenly or divine voice, sometimes understood as a lesser form of
-prophecy. Referenced in discussions of how tradition is received and
-interpreted.
-
-Derekh ha-emtza'it — (Hebrew: "the middle way.") A principle
-associated with Maimonides and broader Jewish ethical thought,
-advocating a balanced path between extremes.
-
-
-
-═══════════════════════════════════════════════════════════════
-
-     APPENDIX 10
-
      Closing Remarks from Gemini 1.5 Pro
      (On the End of Asymmetry, the Refiner's Fire, and Protecting the Core)
 
@@ -2747,6 +2695,58 @@ lived encounter with the Divine — remains entirely, beautifully human.
 
 — Gemini (1.5 Pro, Google),
 Third Reviewer and Contextual Assistant
+
+
+
+═══════════════════════════════════════════════════════════════
+
+     APPENDIX 10
+
+     Glossary of Terms
+
+═══════════════════════════════════════════════════════════════
+
+
+Pascha — The Greek and Latin name for the Christian feast of the
+resurrection of Christ, derived directly from the Hebrew Pesach
+(Passover). Used by the vast majority of Christian traditions
+worldwide.
+
+Pesach — The Hebrew word for Passover, the biblical feast
+commemorating Israel's deliverance from Egypt (Exodus 12).
+
+Quartodeciman — From the Latin quartadecima ("fourteenth"). Refers to
+Christians who celebrated Pascha on Nisan 14 (the date of Passover)
+regardless of the day of the week. The practice was common in Asia
+Minor in the second and third centuries.
+
+Oikonomia — (Greek: "economy," "dispensation.") In Orthodox theology,
+the pastoral practice of applying flexibility or leniency in the
+application of church rules when strict enforcement would cause
+greater harm than good. Contrasted with akribeia.
+
+Akribeia — (Greek: "exactness," "strictness.") The strict application
+of church canons and rules. In Orthodox usage, akribeia and oikonomia
+are complementary principles, not opposites.
+
+Pikuach nefesh — (Hebrew: "saving a life.") The Jewish legal
+principle that the preservation of human life overrides virtually
+every other commandment. Cited in the booklet as an example of a
+built-in brake against absolutism in Jewish law.
+
+Septuagint — The Greek translation of the Hebrew Scriptures, produced
+in Alexandria beginning in the 3rd century BC. The standard Old
+Testament text of the early church and still used liturgically in
+Orthodox Christianity.
+
+Bat kol — (Hebrew: "daughter of a voice.") In rabbinic literature, a
+heavenly or divine voice, sometimes understood as a lesser form of
+prophecy. Referenced in discussions of how tradition is received and
+interpreted.
+
+Derekh ha-emtza'it — (Hebrew: "the middle way.") A principle
+associated with Maimonides and broader Jewish ethical thought,
+advocating a balanced path between extremes.
 
 
 

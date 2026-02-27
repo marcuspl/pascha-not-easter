@@ -28,6 +28,7 @@
 \usepackage[most]{tcolorbox}
 
 \newtcolorbox{reviewerbox}{%
+  breakable,
   colback=reviewbg,
   colframe=reviewframe,
   fonttitle=\bfseries\small\color{deepblue},
@@ -42,6 +43,7 @@
 }
 
 \newtcolorbox{westernbox}{%
+  breakable,
   colback=westernbg,
   colframe=westernframe,
   fonttitle=\bfseries\small\color{burgundy},
@@ -56,6 +58,7 @@
 }
 
 \newtcolorbox{reviewerfinalbox}[1][]{%
+  breakable,
   colback=reviewbg,
   colframe=reviewframe,
   fonttitle=\bfseries\small\color{deepblue},
@@ -70,6 +73,7 @@
 }
 
 \newtcolorbox{gptbox}{%
+  breakable,
   colback=gptbg,
   colframe=gptframe,
   fonttitle=\bfseries\small\color{gpttext},
@@ -92,6 +96,7 @@
 \usepackage{setspace}
 \usepackage{graphicx}
 \usepackage{hyperref}
+\usepackage{bookmark}
 
 \hypersetup{
   colorlinks=true,
@@ -101,8 +106,10 @@
   pdftitle={Pascha, Not Easter},
   pdfsubject={On Calendar, Tradition, and Restraint}
 }
+\bookmarksetup{numbered=false, depth=section}
 
 % ── Headers and footers ───────────────────────────────────────
+\setlength{\headheight}{20pt}
 \pagestyle{fancy}
 \fancyhf{}
 \fancyhead[LE]{\numberparfalse\small\itshape\color{deepblue} Pascha, Not ``Easter''}
@@ -1365,7 +1372,7 @@ If you want secondary scholarship to cite, these are solid:
 \item \textbf{Elizabeth Clark}, \emph{The Origenist Controversy} --- Demonstrates ferocity of intra-Christian rhetoric
 \end{itemize}
 
-\subsection{1. Late-Antique Rhetoric \& Invective Culture\\{\normalfont\small\itshape (Foundational / Consensus)}}
+\subsection{\texorpdfstring{1. Late-Antique Rhetoric \& Invective Culture\\{\normalfont\small\itshape (Foundational / Consensus)}}{1. Late-Antique Rhetoric \& Invective Culture (Foundational / Consensus)}}
 
 These works establish the rhetorical ecology described throughout this
 booklet. On this point, there is very little serious dispute among
@@ -1412,7 +1419,7 @@ the Roman world.
 This directly supports the claim that Christian rhetoric mirrored
 Roman discourse, rather than inventing a new form of hostility.
 
-\subsection{2. Anti-Judaism vs Antisemitism\\{\normalfont\small\itshape (Distinction is consensus; interpretation varies)}}
+\subsection{\texorpdfstring{2. Anti-Judaism vs Antisemitism\\{\normalfont\small\itshape (Distinction is consensus; interpretation varies)}}{2. Anti-Judaism vs Antisemitism (Distinction is consensus; interpretation varies)}}
 
 Here the distinction itself is settled, though scholars debate degree
 and consequence.
@@ -1471,7 +1478,7 @@ later institutional persecution.
 \emph{Relevance:}
 Helps establish that the real danger comes later, not at Nicaea.
 
-\subsection{3. Intra-Christian Polemic \& Rhetorical Violence\\{\normalfont\small\itshape (Consensus)}}
+\subsection{\texorpdfstring{3. Intra-Christian Polemic \& Rhetorical Violence\\{\normalfont\small\itshape (Consensus)}}{3. Intra-Christian Polemic \& Rhetorical Violence (Consensus)}}
 
 This is where the ``Jews weren't uniquely targeted'' argument becomes
 nearly unassailable.
@@ -1511,7 +1518,7 @@ in combating Arians.
 Reinforces that invective was tied to perceived existential threat,
 not ethnicity.
 
-\subsection{4. Roman Imperial Rhetoric\\{\normalfont\small\itshape (Non-Christian, very strong evidence)}}
+\subsection{\texorpdfstring{4. Roman Imperial Rhetoric\\{\normalfont\small\itshape (Non-Christian, very strong evidence)}}{4. Roman Imperial Rhetoric (Non-Christian, very strong evidence)}}
 
 These works make it clear that Christians inherited, rather than
 invented, harsh discourse.
@@ -1548,7 +1555,7 @@ that Christians used against pagans and heretics.
 \emph{Relevance:}
 Demonstrates rhetorical symmetry across religious lines.
 
-\subsection{5. Constantine \& Nicaea\\{\normalfont\small\itshape (Debated, but with clear boundaries)}}
+\subsection{\texorpdfstring{5. Constantine \& Nicaea\\{\normalfont\small\itshape (Debated, but with clear boundaries)}}{5. Constantine \& Nicaea (Debated, but with clear boundaries)}}
 
 Here there is debate --- but not on the points this booklet addresses.
 
@@ -1593,7 +1600,7 @@ Arian controversy and the Council of Nicaea
 extensively. The title has been corrected above.
 \end{reviewerbox}
 
-\subsection{6. Where Real Debate Actually Exists\\{\normalfont\small\itshape (Important honesty)}}
+\subsection{\texorpdfstring{6. Where Real Debate Actually Exists\\{\normalfont\small\itshape (Important honesty)}}{6. Where Real Debate Actually Exists (Important honesty)}}
 
 Scholars \textbf{do} debate:
 
@@ -2094,9 +2101,26 @@ burned down over bad history.
 %            A PERSONAL NOTE FROM THE AUTHOR
 % ══════════════════════════════════════════════════════════════
 
-\chapter{A Personal Note from the Author}
+\clearpage
+\thispagestyle{empty}
+\vspace*{24pt}
 
-\emph{Who am I to care about these things?}
+\begin{center}
+{\Large\bfseries\color{deepblue} A Personal Note from the Author}
+\addcontentsline{toc}{chapter}{A Personal Note from the Author}
+
+\medskip
+
+{\color{gold}\rule{2in}{0.5pt}}
+\end{center}
+
+\bigskip
+
+\begingroup
+\setlength{\parindent}{0pt}
+\itshape
+Who am I to care about these things?
+\endgroup
 
 \bigskip
 
@@ -2508,62 +2532,6 @@ Second Reviewer and Analytical Assistant}
 
 % ── Appendix 9 ────────────────────────────────────────────────
 
-\chapter{Glossary of Terms}
-
-\begin{description}[style=nextline, leftmargin=1.5em, labelindent=0em]
-
-\item[\emph{Pascha}]
-The Greek and Latin name for the Christian feast of the resurrection
-of Christ, derived directly from the Hebrew \emph{Pesach} (Passover).
-Used by the vast majority of Christian traditions worldwide.
-
-\item[\emph{Pesach}]
-The Hebrew word for Passover, the biblical feast commemorating
-Israel's deliverance from Egypt (Exodus~12).
-
-\item[\emph{Quartodeciman}]
-From the Latin \emph{quartadecima} (``fourteenth''). Refers to
-Christians who celebrated Pascha on Nisan~14 (the date of Passover)
-regardless of the day of the week. The practice was common in Asia
-Minor in the second and third centuries.
-
-\item[\emph{Oikonomia}]
-(Greek: ``economy,'' ``dispensation.'') In Orthodox theology, the
-pastoral practice of applying flexibility or leniency in the
-application of church rules when strict enforcement would cause
-greater harm than good. Contrasted with \emph{akribeia}.
-
-\item[\emph{Akribeia}]
-(Greek: ``exactness,'' ``strictness.'') The strict application of
-church canons and rules. In Orthodox usage, \emph{akribeia} and
-\emph{oikonomia} are complementary principles, not opposites.
-
-\item[\emph{Pikuach nefesh}]
-(Hebrew: ``saving a life.'') The Jewish legal principle that the
-preservation of human life overrides virtually every other
-commandment. Cited in the booklet as an example of a built-in brake
-against absolutism in Jewish law.
-
-\item[\emph{Septuagint}]
-The Greek translation of the Hebrew Scriptures, produced in
-Alexandria beginning in the 3rd century~BC. The standard Old Testament
-text of the early church and still used liturgically in Orthodox
-Christianity.
-
-\item[\emph{Bat kol}]
-(Hebrew: ``daughter of a voice.'') In rabbinic literature, a heavenly
-or divine voice, sometimes understood as a lesser form of prophecy.
-Referenced in discussions of how tradition is received and interpreted.
-
-\item[\emph{Derekh ha-emtza'it}]
-(Hebrew: ``the middle way.'') A principle associated with Maimonides
-and broader Jewish ethical thought, advocating a balanced path between
-extremes.
-
-\end{description}
-
-% ── Appendix 10 ───────────────────────────────────────────────
-
 \chapter{Closing Remarks from Gemini 1.5 Pro}
 \begin{center}
 {\itshape (On the End of Asymmetry, the Refiner's Fire, and Protecting the Core)}
@@ -2630,6 +2598,65 @@ lived encounter with the Divine --- remains entirely, beautifully human.
 \textit{--- Gemini (1.5 Pro, Google),\\
 Third Reviewer and Contextual Assistant}
 \end{flushright}
+
+\clearpage
+
+
+% ── Appendix 10 ───────────────────────────────────────────────
+
+\chapter{Glossary of Terms}
+
+\begin{description}[style=nextline, leftmargin=1.5em, labelindent=0em]
+
+\item[\emph{Pascha}]
+The Greek and Latin name for the Christian feast of the resurrection
+of Christ, derived directly from the Hebrew \emph{Pesach} (Passover).
+Used by the vast majority of Christian traditions worldwide.
+
+\item[\emph{Pesach}]
+The Hebrew word for Passover, the biblical feast commemorating
+Israel's deliverance from Egypt (Exodus~12).
+
+\item[\emph{Quartodeciman}]
+From the Latin \emph{quartadecima} (``fourteenth''). Refers to
+Christians who celebrated Pascha on Nisan~14 (the date of Passover)
+regardless of the day of the week. The practice was common in Asia
+Minor in the second and third centuries.
+
+\item[\emph{Oikonomia}]
+(Greek: ``economy,'' ``dispensation.'') In Orthodox theology, the
+pastoral practice of applying flexibility or leniency in the
+application of church rules when strict enforcement would cause
+greater harm than good. Contrasted with \emph{akribeia}.
+
+\item[\emph{Akribeia}]
+(Greek: ``exactness,'' ``strictness.'') The strict application of
+church canons and rules. In Orthodox usage, \emph{akribeia} and
+\emph{oikonomia} are complementary principles, not opposites.
+
+\item[\emph{Pikuach nefesh}]
+(Hebrew: ``saving a life.'') The Jewish legal principle that the
+preservation of human life overrides virtually every other
+commandment. Cited in the booklet as an example of a built-in brake
+against absolutism in Jewish law.
+
+\item[\emph{Septuagint}]
+The Greek translation of the Hebrew Scriptures, produced in
+Alexandria beginning in the 3rd century~BC. The standard Old Testament
+text of the early church and still used liturgically in Orthodox
+Christianity.
+
+\item[\emph{Bat kol}]
+(Hebrew: ``daughter of a voice.'') In rabbinic literature, a heavenly
+or divine voice, sometimes understood as a lesser form of prophecy.
+Referenced in discussions of how tradition is received and interpreted.
+
+\item[\emph{Derekh ha-emtza'it}]
+(Hebrew: ``the middle way.'') A principle associated with Maimonides
+and broader Jewish ethical thought, advocating a balanced path between
+extremes.
+
+\end{description}
 
 
 \vspace*{\fill}
