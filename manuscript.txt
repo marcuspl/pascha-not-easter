@@ -18,8 +18,7 @@
          "Blessed are the peacemakers."
 
 
-         These notes are offered as context,
-         not correction.
+         For the edification of the body.
 
 
          Houston, Texas
@@ -34,13 +33,6 @@
          Offered freely for study and discussion.
          Licensed under Creative Commons Attribution 4.0
          International (CC BY 4.0).
-
-
-⸻
-
-
-         These notes are intended for personal study and
-         small group discussion — not as a weapon.
 
 
 ⸻
@@ -2639,7 +2631,7 @@ Second Reviewer and Analytical Assistant
 
      APPENDIX 9
 
-     Closing Remarks from Gemini 1.5 Pro
+     Closing Remarks from Gemini 3.1 Pro
      (On the End of Asymmetry, the Refiner's Fire, and Protecting the Core)
 
 ═══════════════════════════════════════════════════════════════
@@ -2716,7 +2708,7 @@ to sow division. But once the history is corrected, the AI's job is
 done. The actual work of the Church — repentance, humility, and the
 lived encounter with the Divine — remains entirely, beautifully human.
 
-— Gemini (1.5 Pro, Google),
+— Gemini (3.1 Pro, Google),
 Third Reviewer and Contextual Assistant
 
 
@@ -2753,12 +2745,12 @@ rigorous, and charitable collaboration of many.
 ═══════════════════════════════════════════════════════════════
 
 
-Pascha — The Greek and Latin name for the Christian feast of the
-resurrection of Christ, derived directly from the Hebrew Pesach
+Pascha (Πάσχα) — The Greek and Latin name for the Christian feast of
+the resurrection of Christ, derived directly from the Hebrew Pesach
 (Passover). Used by the vast majority of Christian traditions
 worldwide.
 
-Pesach — The Hebrew word for Passover, the biblical feast
+Pesach (פֶּסַח) — The Hebrew word for Passover, the biblical feast
 commemorating Israel's deliverance from Egypt (Exodus 12).
 
 Quartodeciman — From the Latin quartadecima ("fourteenth"). Refers to
@@ -2766,33 +2758,33 @@ Christians who celebrated Pascha on Nisan 14 (the date of Passover)
 regardless of the day of the week. The practice was common in Asia
 Minor in the second and third centuries.
 
-Oikonomia — (Greek: "economy," "dispensation.") In Orthodox theology,
-the pastoral practice of applying flexibility or leniency in the
-application of church rules when strict enforcement would cause
-greater harm than good. Contrasted with akribeia.
+Oikonomia (οἰκονομία) — (Greek: "economy," "dispensation.") In
+Orthodox theology, the pastoral practice of applying flexibility or
+leniency in the application of church rules when strict enforcement
+would cause greater harm than good. Contrasted with akribeia.
 
-Akribeia — (Greek: "exactness," "strictness.") The strict application
-of church canons and rules. In Orthodox usage, akribeia and oikonomia
-are complementary principles, not opposites.
+Akribeia (ἀκρίβεια) — (Greek: "exactness," "strictness.") The strict
+application of church canons and rules. In Orthodox usage, akribeia
+and oikonomia are complementary principles, not opposites.
 
-Pikuach nefesh — (Hebrew: "saving a life.") The Jewish legal
-principle that the preservation of human life overrides virtually
-every other commandment. Cited in the booklet as an example of a
-built-in brake against absolutism in Jewish law.
+Pikuach nefesh (פִּקּוּחַ נֶפֶשׁ) — (Hebrew: "saving a life.") The
+Jewish legal principle that the preservation of human life overrides
+virtually every other commandment. Cited in the booklet as an example
+of a built-in brake against absolutism in Jewish law.
 
-Septuagint — The Greek translation of the Hebrew Scriptures, produced
-in Alexandria beginning in the 3rd century BC. The standard Old
-Testament text of the early church and still used liturgically in
-Orthodox Christianity.
+Septuagint (ἡ μετάφρασις τῶν ἑβδομήκοντα) — The Greek translation of
+the Hebrew Scriptures, produced in Alexandria beginning in the 3rd
+century BC. The standard Old Testament text of the early church and
+still used liturgically in Orthodox Christianity.
 
-Bat kol — (Hebrew: "daughter of a voice.") In rabbinic literature, a
-heavenly or divine voice, sometimes understood as a lesser form of
-prophecy. Referenced in discussions of how tradition is received and
-interpreted.
+Bat kol (בַּת קוֹל) — (Hebrew: "daughter of a voice.") In rabbinic
+literature, a heavenly or divine voice, sometimes understood as a
+lesser form of prophecy. Referenced in discussions of how tradition is
+received and interpreted.
 
-Derekh ha-emtza'it — (Hebrew: "the middle way.") A principle
-associated with Maimonides and broader Jewish ethical thought,
-advocating a balanced path between extremes.
+Derekh ha-emtza'it (דֶּרֶךְ הָאֶמְצָעִית) — (Hebrew: "the middle
+way.") A principle associated with Maimonides and broader Jewish
+ethical thought, advocating a balanced path between extremes.
 
 
 
@@ -2810,4 +2802,4 @@ advocating a balanced path between extremes.
 
 [^4]: This refers to a widely reported event near the end of Aquinas's life (December 6, 1273). After a profound mystical experience during Mass, Aquinas ceased writing, telling his companion Reginald of Piperno: "I can do no more. Such secrets have been revealed to me that all I have written now appears to be of little value" (often translated as "like straw").
 
-[^5]: Reviewer's note (Gemini 1.5 Pro): While the specific teaching this booklet responds to may not have mentioned rabbits and eggs, I recommended keeping this section here. Anyone researching the "Ishtar" claim online will immediately encounter the "pagan fertility symbols" argument. Addressing it preemptively strengthens the booklet's defense and provides a beautiful opportunity to highlight the ancient, explicitly Christian symbolism of the Orthodox red egg tradition.
+[^5]: Reviewer's note (Gemini 3.1 Pro): While the specific teaching this booklet responds to may not have mentioned rabbits and eggs, I recommended keeping this section here. Anyone researching the "Ishtar" claim online will immediately encounter the "pagan fertility symbols" argument. Addressing it preemptively strengthens the booklet's defense and provides a beautiful opportunity to highlight the ancient, explicitly Christian symbolism of the Orthodox red egg tradition.
