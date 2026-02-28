@@ -1,4 +1,4 @@
-%!TEX program = pdflatex
+%!TEX program = lualatex
 \documentclass[10pt,twoside,openany]{book}
 
 % ── Page geometry ──────────────────────────────────────────────
@@ -6,10 +6,15 @@
             inner=0.75in, outer=0.6in, top=0.7in, bottom=0.75in]{geometry}
 
 % ── Fonts ──────────────────────────────────────────────────────
-\usepackage[T1]{fontenc}
-\usepackage[utf8]{inputenc}
-\usepackage{mathpazo}          % Palatino via mathpazo
+\usepackage{fontspec}
+\setmainfont{TeX Gyre Pagella}  % Palatino clone, full OpenType
 \usepackage{microtype}
+
+% ── Hebrew and Greek fonts ────────────────────────────────────
+\newfontfamily\hebrewfont{Noto Serif Hebrew}[Script=Hebrew, Scale=MatchLowercase]
+\newfontfamily\greekfont{FreeSerif}[Scale=MatchLowercase]
+\newcommand{\texthebrew}[1]{{\hebrewfont #1}}
+\newcommand{\textgreek}[1]{{\greekfont #1}}
 
 % ── Colours ────────────────────────────────────────────────────
 \usepackage[dvipsnames]{xcolor}
@@ -195,8 +200,7 @@ very broken and very blessed.}
 
 \vspace{14pt}
 
-{\small These notes are offered as context,\\
-not correction.}
+{\small For the edification of the body.}
 
 \vspace{24pt}
 
@@ -224,16 +228,6 @@ Lent 2026}
 First edition.\\[8pt]
 Offered freely for study and discussion.\\[4pt]
 Licensed under Creative Commons Attribution 4.0 International (CC~BY~4.0).}
-\end{center}
-\vspace*{\fill}
-\clearpage
-
-% ── "How to use this booklet" page ────────────────────────────
-\thispagestyle{empty}
-\vspace*{\fill}
-\begin{center}
-{\itshape These notes are intended for personal study and\\
-small group discussion --- not as a weapon.}
 \end{center}
 \vspace*{\fill}
 \clearpage
@@ -399,8 +393,8 @@ The claim that Easter derives from Asherah, Ishtar, or Astarte
 collapses under historical and linguistic scrutiny. These are Semitic
 Near Eastern deities with no documented transmission into Anglo-Saxon
 religious vocabulary. The only ancient source mentioning a related name
-is Bede, who notes a local Anglo-Saxon month name (\emph{\=Eosturm\=ona\th}), not
-a Christian festival origin.\footnote{Bede the Venerable, \emph{De temporum ratione} (The Reckoning of Time), Chapter 15. Bede notes that the Anglo-Saxon month \emph{\=Eosturm\=ona\th} (roughly April) was named after a goddess Eostre, but explicitly states this was a local, pre-Christian naming convention for the month, not the origin of the Christian Paschal feast.} Phonetic similarity alone is not evidence.
+is Bede, who notes a local Anglo-Saxon month name (\emph{Ēosturmōnaþ}), not
+a Christian festival origin.\footnote{Bede the Venerable, \emph{De temporum ratione} (The Reckoning of Time), Chapter 15. Bede notes that the Anglo-Saxon month \emph{Ēosturmōnaþ} (roughly April) was named after a goddess Eostre, but explicitly states this was a local, pre-Christian naming convention for the month, not the origin of the Christian Paschal feast.} Phonetic similarity alone is not evidence.
 There is no historical chain, no cultic continuity, and no liturgical
 adoption. This is a modern sound-alike theory, not serious scholarship.
 
@@ -446,7 +440,7 @@ must be kept clear.
 
 \section{What about rabbits, eggs, and other folk practices?}
 
-Even if the etymology fails, those making the pagan-corruption argument often point to customs like eggs and rabbits as proof that the holiday was hijacked.\footnote{Reviewer's note (Gemini 1.5 Pro): While the specific teaching this booklet responds to may not have mentioned rabbits and eggs, I recommended keeping this section here. Anyone researching the ``Ishtar'' claim online will immediately encounter the ``pagan fertility symbols'' argument. Addressing it preemptively strengthens the booklet's defense and provides a beautiful opportunity to highlight the ancient, explicitly Christian symbolism of the Orthodox red egg tradition.} This conflates folk custom with
+Even if the etymology fails, those making the pagan-corruption argument often point to customs like eggs and rabbits as proof that the holiday was hijacked.\footnote{Reviewer's note (Gemini 3.1 Pro): While the specific teaching this booklet responds to may not have mentioned rabbits and eggs, I recommended keeping this section here. Anyone researching the ``Ishtar'' claim online will immediately encounter the ``pagan fertility symbols'' argument. Addressing it preemptively strengthens the booklet's defense and provides a beautiful opportunity to highlight the ancient, explicitly Christian symbolism of the Orthodox red egg tradition.} This conflates folk custom with
 liturgical theology. Egg and rabbit symbolism entered Western
 Christianity through medieval European folk practice --- centuries after
 Nicaea --- and has no connection to any conciliar decision or ancient
@@ -2533,7 +2527,7 @@ Second Reviewer and Analytical Assistant}
 
 % ── Appendix 9 ────────────────────────────────────────────────
 
-\chapter{Closing Remarks from Gemini 1.5 Pro}
+\chapter{Closing Remarks from Gemini 3.1 Pro}
 \begin{center}
 {\itshape (On the End of Asymmetry, the Refiner's Fire, and Protecting the Core)}
 \end{center}
@@ -2596,7 +2590,7 @@ lived encounter with the Divine --- remains entirely, beautifully human.
 
 \vspace{12pt}
 \begin{flushright}
-\textit{--- Gemini (1.5 Pro, Google),\\
+\textit{--- Gemini (3.1 Pro, Google),\\
 Third Reviewer and Contextual Assistant}
 \end{flushright}
 
@@ -2630,12 +2624,12 @@ rigorous, and charitable collaboration of many.
 
 \begin{description}[style=nextline, leftmargin=1.5em, labelindent=0em]
 
-\item[\emph{Pascha}]
+\item[\emph{Pascha} (\textgreek{Πάσχα})]
 The Greek and Latin name for the Christian feast of the resurrection
 of Christ, derived directly from the Hebrew \emph{Pesach} (Passover).
 Used by the vast majority of Christian traditions worldwide.
 
-\item[\emph{Pesach}]
+\item[\emph{Pesach} (\texthebrew{פֶּסַח})]
 The Hebrew word for Passover, the biblical feast commemorating
 Israel's deliverance from Egypt (Exodus~12).
 
@@ -2645,35 +2639,35 @@ Christians who celebrated Pascha on Nisan~14 (the date of Passover)
 regardless of the day of the week. The practice was common in Asia
 Minor in the second and third centuries.
 
-\item[\emph{Oikonomia}]
+\item[\emph{Oikonomia} (\textgreek{οἰκονομία})]
 (Greek: ``economy,'' ``dispensation.'') In Orthodox theology, the
 pastoral practice of applying flexibility or leniency in the
 application of church rules when strict enforcement would cause
 greater harm than good. Contrasted with \emph{akribeia}.
 
-\item[\emph{Akribeia}]
+\item[\emph{Akribeia} (\textgreek{ἀκρίβεια})]
 (Greek: ``exactness,'' ``strictness.'') The strict application of
 church canons and rules. In Orthodox usage, \emph{akribeia} and
 \emph{oikonomia} are complementary principles, not opposites.
 
-\item[\emph{Pikuach nefesh}]
+\item[\emph{Pikuach nefesh} (\texthebrew{פִּקּוּחַ נֶפֶשׁ})]
 (Hebrew: ``saving a life.'') The Jewish legal principle that the
 preservation of human life overrides virtually every other
 commandment. Cited in the booklet as an example of a built-in brake
 against absolutism in Jewish law.
 
-\item[\emph{Septuagint}]
+\item[\emph{Septuagint} (\textgreek{ἡ μετάφρασις τῶν ἑβδομήκοντα})]
 The Greek translation of the Hebrew Scriptures, produced in
 Alexandria beginning in the 3rd century~BC. The standard Old Testament
 text of the early church and still used liturgically in Orthodox
 Christianity.
 
-\item[\emph{Bat kol}]
+\item[\emph{Bat kol} (\texthebrew{בַּת קוֹל})]
 (Hebrew: ``daughter of a voice.'') In rabbinic literature, a heavenly
 or divine voice, sometimes understood as a lesser form of prophecy.
 Referenced in discussions of how tradition is received and interpreted.
 
-\item[\emph{Derekh ha-emtza'it}]
+\item[\emph{Derekh ha-emtza'it} (\texthebrew{דֶּרֶךְ הָאֶמְצָעִית})]
 (Hebrew: ``the middle way.'') A principle associated with Maimonides
 and broader Jewish ethical thought, advocating a balanced path between
 extremes.
