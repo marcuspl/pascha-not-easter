@@ -92,11 +92,15 @@ def classify_lines(lines):
         
         # Section headers
         section_keywords = [
-            'easter as a germanic', '"easter" from asherah', 'there is no real',
-            'bishop of jerusalem', 'anti-jewish', 'lineage, authority',
-            'providence, not', 'power redirected', 'why embodiment',
+            'introduction: what', 'easter as a germanic', '"easter" from asherah', 
+            'rabbits, eggs, and other', 'there is no real', 'bishop of jerusalem', 
+            'the quartodeciman controversy', 'what nicaea actually decided', 'anti-jewish', 
+            'lineage, authority', 'providence, not', 'power redirected', 'why embodiment',
             'constantine the great as', 'messy conversion', 'judging by fruit',
-            'restrained theological', 'who am i', 'introduction: what'
+            'restrained theological', 'who am i', 'on the format', "on gpt's contributions",
+            'where i would still push back', 'on the bigger picture', "on claude's assessment",
+            "on claude's gentle pushback", 'on the broader project', 'the end of historical asymmetry',
+            "the refiner's fire", 'computation vs. communion'
         ]
         subsection_keywords = [
             'pagan religion', 'pagan culture', 'intra-christian', 'pastoral invective',
@@ -107,6 +111,10 @@ def classify_lines(lines):
             'warning against excessive', 'calendar authority', 'unity does not require',
             'tradition is lived', 'excessive rigor', 'church applies', 'sacred time serves',
             'representative rabbinic', 'representative orthodox', 'representative evangelical',
+            'the ishtar question', 'the calendar', "constantine's letter",
+            'evangelicalism', 'cassian', 'postscript',
+            '1. late-antique rhetoric', '2. anti-judaism vs', '3. intra-christian polemic',
+            '4. roman imperial rhetoric', '5. constantine & nicaea', '6. where real debate'
         ]
         
         is_main_section = any(kw in stripped.lower() for kw in section_keywords)
