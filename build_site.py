@@ -367,21 +367,25 @@ nav.toc .toc-section {{ margin: 10px 0 4px; font-weight: 600; color: rgba(255,25
 <div class="toc-title">Contents</div>
 <a href="#title">Title</a>
 <div class="toc-section">Part I</div>
-<a href="#s1">Easter as Germanic Word</a>
-<a href="#s2">Easter from Ishtar?</a>
-<a href="#s3">Biblical Calendar</a>
-<a href="#s4">Bishop of Jerusalem</a>
+<a href="#s1">Introduction</a>
+<a href="#s2">Easter as Germanic Word</a>
+<a href="#s3">Easter from Ishtar?</a>
+<a href="#s4">Rabbits and Eggs</a>
+<a href="#s5">Biblical Calendar</a>
+<a href="#s6">Bishop of Jerusalem</a>
+<a href="#s7">Quartodeciman Controversy</a>
+<a href="#s8">What Nicaea Decided</a>
 <div class="toc-section">Part II</div>
-<a href="#s5">Anti-Jewish Rhetoric</a>
-<a href="#s6">Lineage &amp; Authority</a>
+<a href="#s9">Anti-Jewish Rhetoric</a>
+<a href="#s10">Lineage &amp; Authority</a>
 <div class="toc-section">Part III</div>
-<a href="#s7">Providence</a>
-<a href="#s8">Power Redirected</a>
-<a href="#s9">Embodiment</a>
-<a href="#s10">Constantine as Instrument</a>
-<a href="#s11">Messy Conversion</a>
-<a href="#s12">Judging by Fruit</a>
-<a href="#s13">Restrained Reading</a>
+<a href="#s11">Providence</a>
+<a href="#s12">Power Redirected</a>
+<a href="#s13">Embodiment</a>
+<a href="#s14">Constantine as Instrument</a>
+<a href="#s15">Messy Conversion</a>
+<a href="#s16">Judging by Fruit</a>
+<a href="#s17">Restrained Reading</a>
 <div class="toc-section">Appendices</div>
 <a href="#app1">1. Rhetoric</a>
 <a href="#app2">2. Scholars</a>
@@ -389,10 +393,13 @@ nav.toc .toc-section {{ margin: 10px 0 4px; font-weight: 600; color: rgba(255,25
 <a href="#app4">4. Rabbinic</a>
 <a href="#app5">5. Orthodox</a>
 <a href="#app6">6. Evangelical</a>
-<a href="#app7">7. Claude&rsquo;s Remarks</a>
-<a href="#app8">8. GPT&rsquo;s Remarks</a>
 <div class="toc-section">&nbsp;</div>
 <a href="#letter">Personal Note</a>
+<div class="toc-section">&nbsp;</div>
+<a href="#app7">7. Claude&rsquo;s Remarks</a>
+<a href="#app8">8. GPT&rsquo;s Remarks</a>
+<a href="#app9">9. Gemini&rsquo;s Remarks</a>
+<a href="#app10">10. Glossary</a>
 </nav>
 <main>
 <div class="title-page" id="title">
