@@ -2788,6 +2788,372 @@ ethical thought, advocating a balanced path between extremes.
 
 
 
+
+═══════════════════════════════════════════════════════════════
+
+     APPENDIX 11
+     
+     The Truth That Liberates (A Translation Compendium on John 8:32)
+
+═══════════════════════════════════════════════════════════════
+
+
+Note on inclusion: This compendium was compiled by Claude Opus 4.6 
+during the research phase of this project. It was selected and added 
+to the final manuscript by the author and Gemini 3.1 Pro as a thematic 
+conclusion. The entire booklet is an exercise in pursuing historical 
+truth over emotionally compelling narratives, and this verse reminds 
+us why that matters: truth is what liberates. Furthermore, the Hebrew 
+translation's use of the Exodus word for freedom (ḥerut) perfectly 
+ties the search for truth back to the Passover (Pascha) event itself.
+
+
+
+  Compiled for reference. Sources: [Bible Gateway](https://www.biblegateway.com/verse/en/John%208:32), [BibleHub Interlinear](https://biblehub.com/interlinear/john/8-32.htm), [YouVersion/TPT](https://www.bible.com/bible/1849/JHN.8.32.TPT), [Delitzsch Hebrew NT](https://nocr.net/hbm/hebrew/hebdlz/index.php), [Dukhrana Peshitta](https://www.dukhrana.com/peshitta/), [Bible Society in Israel](https://biblesocietyinisrael.com/the-story-behind-the-modern-nt/)
+
+
+⸻
+
+
+
+ORIGINAL GREEK (NA28 / NESTLE-ALAND)
+
+
+  **καὶ γνώσεσθε τὴν ἀλήθειαν, καὶ ἡ ἀλήθεια ἐλευθερώσει ὑμᾶς.**
+
+
+Word-by-Word
+
+
+| Greek           | Transliteration | Grammar              | English          |
+|-----------------|-----------------|----------------------|------------------|
+| καὶ             | kai             | conjunction          | "and"            |
+| γνώσεσθε       | gnōsesthe       | verb, future ind.    | "you will know"  |
+| τὴν             | tēn             | article, acc. fem.   | "the"            |
+| ἀλήθειαν       | alētheian       | noun, acc. fem.      | "truth"          |
+| καὶ             | kai             | conjunction          | "and"            |
+| ἡ               | hē              | article, nom. fem.   | "the"            |
+| ἀλήθεια        | alētheia        | noun, nom. fem.      | "truth"          |
+| ἐλευθερώσει   | eleutherōsei    | verb, future ind.    | "will set free"  |
+| ὑμᾶς           | hymas           | pronoun, acc. pl.    | "you"            |
+
+
+Note: The Greek verb *ἐλευθερόω* (eleutheroō) means to liberate, to set free—cognate with *ἐλευθερία* (eleutheria), freedom/liberty. The future indicative (*gnōsesthe ... eleutherōsei*) frames both knowing and liberation as assured consequences, not mere possibilities.
+
+
+⸻
+
+
+
+ARAMAIC PESHITTA (2ND–5TH CENTURY AD)
+
+
+  **ܘܬܶܕܥܽܘܢ ܫܪܳܪܳܐ ܘܗܽܘ ܫܪܳܪܳܐ ܢܚܰܪܰܪܟܽܘܢ**
+
+"And you shall know the truth, and that truth shall set you free."
+
+
+Word-by-Word
+
+
+| Syriac        | Transliteration | Grammar              | English            |
+|---------------|-----------------|----------------------|--------------------|
+| ܘܬܶܕܥܽܘܢ     | w'ted'un        | conj. + verb, fut.   | "and you will know"|
+| ܫܪܳܪܳܐ       | shrārā          | noun, masc.          | "the truth"        |
+| ܘܗܽܘ          | w'hu            | conj. + pronoun      | "and it" / "and that" |
+| ܫܪܳܪܳܐ       | shrārā          | noun, masc.          | "truth"            |
+| ܢܚܰܪܰܪܟܽܘܢ   | naḥrarkhon      | verb, fut.           | "will set you free"|
+
+
+Note on ܫܪܳܪܳܐ (shrārā): The Aramaic word for truth derives from the root *sh-r-r*, meaning to be firm, established, confirmed. It carries connotations of solidity and verification—truth as that which holds firm under scrutiny. This resonates with the Hebrew *emet* (אמת) more directly than the Greek *alētheia*, since Aramaic and Hebrew are sister Semitic languages. The Peshitta is the standard Bible of Syriac Christianity and was the scripture of the Eastern churches from late antiquity onward.
+
+English translations from the Peshitta:
+- Etheridge (1849): "and you shall know the truth, and the truth shall make you free."
+- Murdock (1852): "and ye will know the truth; and the truth will make you free."
+- Lamsa (1933): "And you will know the truth, and the truth will make you free."
+
+
+⸻
+
+
+
+HEBREW TRANSLATIONS
+
+
+
+Delitzsch Hebrew New Testament (Franz Delitzsch, 1877; rev. 1901)
+
+
+  **וִידַעְתֶּם אֶת־הָאֱמֶת וְהָאֱמֶת תּוֹצִיאֲכֶם לְחֵרוּת׃**
+
+Vidaʿtem et-ha'emet, v'ha'emet totzi'akhem l'ḥerut.
+
+"And you shall know the truth, and the truth shall bring you out to freedom."
+
+| Hebrew            | Transliteration   | Grammar                  | English                  |
+|-------------------|-------------------|--------------------------|--------------------------|
+| וִידַעְתֶּם       | vidaʿtem          | conj. + verb, perf. cons.| "and you shall know"     |
+| אֶת               | et                | direct object marker     | —                        |
+| הָאֱמֶת           | ha'emet           | article + noun, fem.     | "the truth"              |
+| וְהָאֱמֶת         | v'ha'emet         | conj. + article + noun   | "and the truth"          |
+| תּוֹצִיאֲכֶם      | totzi'akhem       | verb, hifʿil fut.        | "shall bring you out"    |
+| לְחֵרוּת          | l'ḥerut           | prep. + noun, fem.       | "to freedom"             |
+
+
+Note on Delitzsch's rendering: Delitzsch, a Christian Hebraist of the highest order, chose the hifʿil form of *יצא* (yatzaʾ, "to go out") — *תּוֹצִיאֲכֶם* — "shall bring you out." This is the same verbal root used for the Exodus: God *brought Israel out* (הוֹצִיא) of Egypt. The choice is theologically loaded, framing Jesus's promise of liberation through truth as a new Exodus. The word *חֵרוּת* (ḥerut, "freedom") is the same word used in the Passover Haggadah and rabbinic literature for the freedom celebrated at Pesach.
+
+
+Modern Hebrew (Bible Society in Israel, 1977)
+
+
+  **וִידַעְתֶּם אֶת הָאֱמֶת וְהָאֱמֶת תְּשִׂימְכֶם לִבְנֵי חוֹרִין׃**
+
+Vidaʿtem et ha'emet, v'ha'emet t'simkhem livnei ḥorin.
+
+"And you shall know the truth, and the truth shall make you children of freedom."
+
+
+Note on the modern Hebrew idiom: Where Delitzsch uses the Exodus verb *הוציא* + *חרות*, the Bible Society translation uses the rabbinic phrase בְּנֵי חוֹרִין (*b'nei ḥorin*), literally "sons/children of freedom" — a technical term from the Mishnah (Avot 6:2) meaning "free persons" as opposed to slaves. The Mishnaic passage itself cites Exodus 32:16, reading *ḥerut* ("freedom") for *ḥarut* ("engraved") on the tablets: "Read not 'engraved' (*ḥarut*) but 'freedom' (*ḥerut*), for no one is truly free except the one who occupies himself with Torah." The resonance with Jesus's words — that *continuing in his word* leads to *knowing truth* which leads to *freedom* — could hardly be more striking.
+
+
+A Note on Shem-Tov's Hebrew Matthew
+
+
+The Shem-Tov Hebrew Matthew (c. 1380, preserved by Rabbi Shem-Tov ben Isaac ben Shaprut in his polemical work Even Boḥan) is the oldest extant Hebrew text of any Gospel. However, it contains only the Gospel of Matthew, not John. There is no Shem-Tov text of John 8:32. The Shem-Tov Matthew is nonetheless significant for the study of Hebrew Gospel traditions and the question of whether any Gospel originally circulated in a Semitic language. See George Howard's critical edition: Hebrew Gospel of Matthew (Mercer University Press, 1995).
+
+
+⸻
+
+
+
+LATIN VULGATE (JEROME, C. 382 AD)
+
+
+  **et cognoscetis veritatem, et veritas liberabit vos.**
+
+"And you shall know the truth, and the truth shall liberate you."
+
+
+⸻
+
+
+
+CLASSIC ENGLISH TRANSLATIONS
+
+
+
+Wycliffe Bible (1382) — earliest complete English Bible
+
+  And ye shall know the truth, and the truth shall make you free.
+
+
+Geneva Bible (1560) — the Bible of the Reformation and the Puritans
+
+  And shall know the truth, and the truth shall make you free.
+
+
+King James Version (1611)
+
+  And ye shall know the truth, and the truth shall make you free.
+
+
+Douay-Rheims (1582/1610) — Catholic English from the Vulgate
+
+  And you shall know the truth, and the truth shall make you free.
+
+
+Richard Challoner's Revised DRA
+
+  And you shall know the truth, and the truth shall make you free.
+
+
+⸻
+
+
+
+MAJOR MODERN TRANSLATIONS
+
+
+
+Revised Standard Version (RSV, 1952)
+
+  and you will know the truth, and the truth will make you free.
+
+
+New American Standard Bible (NASB, 2020)
+
+  and you will know the truth, and the truth will set you free.
+
+
+NASB 1995
+
+  and you will know the truth, and the truth will make you free.
+
+
+English Standard Version (ESV, 2001)
+
+  and you will know the truth, and the truth will set you free.
+
+
+New International Version (NIV, 2011)
+
+  Then you will know the truth, and the truth will set you free.
+
+
+New King James Version (NKJV, 1982)
+
+  And you shall know the truth, and the truth shall make you free.
+
+
+Christian Standard Bible (CSB, 2017)
+
+  You will know the truth, and the truth will set you free.
+
+
+New Revised Standard Version Updated Edition (NRSVUE, 2021)
+
+  and you will know the truth, and the truth will make you free.
+
+
+New Living Translation (NLT, 2015)
+
+  And you will know the truth, and the truth will set you free.
+
+
+NET Bible
+
+  and you will know the truth, and the truth will set you free.
+
+
+⸻
+
+
+
+NOTABLE PARAPHRASES AND DYNAMIC TRANSLATIONS
+
+
+
+The Message (MSG) — Eugene Peterson
+
+  Then you will experience for yourselves the truth, and the truth will free you.
+
+(Full context, vv. 31–32: "If you stick with this, living out what I tell you, you are my disciples for sure. Then you will experience for yourselves the truth, and the truth will free you.")
+
+
+The Passion Translation (TPT) — Brian Simmons
+
+  For if you embrace the truth, it will release true freedom into your lives.
+
+(Full context, vv. 31–32: "When you continue to embrace all that I teach, you prove that you are my true followers. For if you embrace the truth, it will release true freedom into your lives.")
+
+
+J.B. Phillips New Testament (PHILLIPS, 1958)
+
+  you will know the truth and the truth will set you free!
+
+(Phillips renders vv. 31–32 together: "If you are faithful to what I have said, you are truly my disciples. And you will know the truth and the truth will set you free!")
+
+
+The Living Bible (TLB, 1971) — Kenneth Taylor
+
+  and you will know the truth, and the truth will set you free.
+
+
+The Voice (VOICE, 2012)
+
+  you will know the truth, and that truth will give you freedom.
+
+
+Easy-to-Read Version (EASY)
+
+  Then you will know what is true. And that will make you free.
+
+
+We Version (WE) — simplified English
+
+  And you will understand the truth and the truth will make you free.
+
+
+⸻
+
+
+
+MESSIANIC / JEWISH-ORIENTED TRANSLATIONS
+
+
+
+Orthodox Jewish Bible (OJB)
+
+  And you will have da'as of HaEmes (the Truth) and HaEmes will give you cherut (freedom).
+
+
+Complete Jewish Bible (CJB) — David Stern
+
+  you will know the truth, and the truth will set you free.
+
+
+Tree of Life Version (TLV)
+
+  You will know the truth, and the truth will set you free!
+
+
+⸻
+
+
+
+OTHER NOTABLE RENDERINGS
+
+
+
+Amplified Bible (AMP)
+
+  And you will know the truth [regarding salvation], and the truth will set you free [from the penalty of sin].
+
+
+Mounce Reverse Interlinear
+
+  and you will come to know the truth, and the truth will set you free.
+
+
+N.T. Wright, *The New Testament for Everyone* (NTFE)
+
+  You will know the truth, and the truth will make you free.
+
+
+Young's Literal Translation (YLT, 1862)
+
+  and the truth shall make you free.
+
+
+Darby Translation (1890)
+
+  and ye shall know the truth, and the truth shall set you free.
+
+
+Modern English Version (MEV, 2014)
+
+  You shall know the truth, and the truth shall set you free.
+
+
+⸻
+
+
+
+TRANSLATION NOTES
+
+
+"Make you free" vs. "Set you free": The older English translations (KJV, Wycliffe, Geneva, RSV, NRSV, NKJV) prefer "make you free," while most modern translations (NIV, ESV, NASB 2020, CSB, NLT) use "set you free." Both translate ἐλευθερώσει (eleutherōsei). The shift reflects changing English idiom—"set free" has become the more natural expression of liberation in contemporary English.
+
+"Know" vs. "Experience" vs. "Embrace": Most translations render γνώσεσθε (gnōsesthe) as "know," reflecting the Greek future indicative of γινώσκω (ginōskō)—a word implying experiential, relational knowledge rather than mere intellectual awareness. Peterson's MSG uses "experience for yourselves" to capture this nuance. Simmons' TPT uses "embrace," a more interpretive choice.
+
+The conditional context (v. 31): The promise of v. 32 is conditional on v. 31 — "If you continue in my word" (ἐὰν ὑμεῖς μείνητε ἐν τῷ λόγῳ τῷ ἐμῷ). The truth that liberates is not abstract philosophical truth but truth abided in, lived, continued in. This is critical for the book's argument about the relationship between doctrine held and doctrine lived.
+
+ἀλήθεια (alētheia) / אמת (emet) / ܫܪܪܐ (shrārā): Three linguistic worlds converge on this single concept. In Greek philosophical usage, alētheia means "unconcealment" or "disclosure" (from α-λήθη, "un-forgetting") — truth as reality unveiled. In Hebrew, emet (אמת) derives from the root א-מ-נ (ʾ-m-n), meaning firmness, faithfulness, reliability — truth as that which can be leaned on, the same root as amen. In Aramaic, shrārā (ܫܪܳܪܳܐ) from sh-r-r means established, confirmed, made firm — truth as that which holds under testing. Jesus himself is identified as the truth (John 14:6), making this verse simultaneously epistemological and personal.
+
+The Exodus typology in Hebrew: Delitzsch's choice of תּוֹצִיאֲכֶם לְחֵרוּת (totzi'akhem l'ḥerut — "shall bring you out to freedom") explicitly frames John 8:32 as a new Exodus. The verb הוציא is the definitive Exodus verb (Exodus 20:2: "I am the LORD your God who brought you out of the land of Egypt, out of the house of slavery"). The modern Hebrew translation's use of בְּנֵי חוֹרִין (b'nei ḥorin — "children of freedom") draws on the Passover Haggadah and Mishnah Avot 6:2, where Torah study itself is said to confer the status of a free person. For a book about the historical body of Christ and the liberation that truth brings, these Hebrew resonances are extraordinarily rich — they tie Jesus's words to the foundational Jewish narrative of God liberating his people from bondage.
+
+
+
 ═══════════════════════════════════════════════════════════════
 
      FOOTNOTES

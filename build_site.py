@@ -114,7 +114,10 @@ def classify_lines(lines):
             'the ishtar question', 'the calendar', "constantine's letter",
             'evangelicalism', 'cassian', 'postscript',
             '1. late-antique rhetoric', '2. anti-judaism vs', '3. intra-christian polemic',
-            '4. roman imperial rhetoric', '5. constantine & nicaea', '6. where real debate'
+            '4. roman imperial rhetoric', '5. constantine & nicaea', '6. where real debate',
+            'original greek', 'aramaic peshitta', 'hebrew translations', 'latin vulgate',
+            'classic english translations', 'major modern translations', 'notable paraphrases',
+            'messianic / jewish-oriented', 'other notable renderings', 'translation notes'
         ]
         
         is_main_section = any(kw in stripped.lower() for kw in section_keywords)
@@ -400,6 +403,7 @@ nav.toc .toc-section {{ margin: 10px 0 4px; font-weight: 600; color: rgba(255,25
 <a href="#app8">8. GPT&rsquo;s Remarks</a>
 <a href="#app9">9. Gemini&rsquo;s Remarks</a>
 <a href="#app10">10. Glossary</a>
+<a href="#app11">11. John 8:32</a>
 </nav>
 <main>
 <div class="title-page" id="title">
