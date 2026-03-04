@@ -466,6 +466,14 @@ for etype, edata in elements:
     elif etype == 'paragraph':
         html.append(f'<p>{sq(edata)}</p>')
     elif etype == 'blockquote':
+        # Check for QR code in the blockquote
+        if '[QR code: marcus_rydberg@strike.me]' in edata:
+            html.append('<div style="text-align: center; margin: 30px 0;">')
+            html.append('<img src="lightning-qr.png" alt="Lightning QR Code" style="max-width: 150px; border-radius: 8px; border: 1px solid var(--gold); padding: 10px; background: white;">')
+            html.append('</div>')
+            # Don't append the text version
+            continue
+            
         html.append(f'<blockquote>{sq(edata)}</blockquote>')
     elif etype == 'reviewer_box':
         html.append(render_box(edata, 'reviewer-box', 'AI REVIEW &mdash; CLAUDE OPUS 4.6'))
