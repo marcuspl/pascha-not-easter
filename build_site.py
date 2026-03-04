@@ -180,8 +180,41 @@ def classify_lines(lines):
                     break
             elements.append(('ordered_list', list_items))
             continue
-        
-        # Indented block
+            
+        # Handle markdown tables simply for the appendix
+        if stripped.startswith('|'):
+            if '|---' in stripped:
+                i += 1
+                continue # Skip separator lines
+            
+            # Use split and handle empty leading/trailing cells
+            cells_raw = stripped.split('|')
+            # Remove the first and last empty cells if the line starts/ends with a pipe
+            if len(cells_raw) > 0 and cells_raw[0].strip() == '':
+                cells_raw = cells_raw[1:]
+            if len(cells_raw) > 0 and cells_raw[-1].strip() == '':
+                cells_raw = cells_raw[:-1]
+                
+            cells = [c.strip() for c in cells_raw]
+            
+            if len(cells) > 1:
+                # If it's a header row
+                if 'Greek' in cells[0] or 'Syriac' in cells[0] or 'Hebrew' in cells[0]:
+                    elements.append(('table_start', cells))
+                else:
+                    elements.append(('table_row', cells))
+                
+                # Check if next line is not a table line to close the table
+                if i + 1 >= len(lines) or not lines[i+1].strip().startswith('|'):
+                    elements.append(('table_end', ''))
+            i += 1
+            continue
+
+        # Check for QR code in the blockquote
+        if '[QR code: marcus_rydberg@strike.me]' in stripped:
+            elements.append(('qr_code', ''))
+            i += 1
+            continue
         if line.startswith('  ') and len(stripped) > 20:
             block_lines = [stripped]
             i += 1
@@ -491,6 +524,24 @@ for etype, edata in elements:
         for _, item in edata:
             html.append(f'<li>{sq(item)}</li>')
         html.append('</ol>')
+    elif etype == 'table_start':
+        html.append('<div style="overflow-x: auto; margin-bottom: 24px;">')
+        html.append('<table style="width: 100%; border-collapse: collapse; font-family: \'Inter\', sans-serif; font-size: 14px; text-align: left;">')
+        html.append('<tr style="background: var(--light-blue-bg); border-bottom: 2px solid var(--blue);">')
+        for cell in edata:
+            html.append(f'<th style="padding: 10px 14px; font-weight: 600; color: var(--blue);">{sq(cell)}</th>')
+        html.append('</tr>')
+    elif etype == 'table_row':
+        html.append('<tr style="border-bottom: 1px solid #eee;">')
+        for cell in edata:
+            html.append(f'<td style="padding: 10px 14px;">{sq(cell)}</td>')
+        html.append('</tr>')
+    elif etype == 'table_end':
+        html.append('</table>\n</div>')
+    elif etype == 'qr_code':
+        html.append('<div style="text-align: center; margin: 30px 0;">')
+        html.append('<img src="lightning-qr.png" alt="Lightning QR Code" style="max-width: 150px; border-radius: 8px; border: 1px solid var(--gold); padding: 10px; background: white;">')
+        html.append('</div>')
     elif etype == 'bib_meta':
         html.append(f'<p class="bib-meta">{sq(edata)}</p>')
     elif etype == 'bib_label':
